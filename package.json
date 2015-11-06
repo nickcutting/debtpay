@@ -7,6 +7,7 @@
     "node": "4.x"
   },
   "dependencies": {
+    "body-parser": "^1.14.1",
     "express": "4.13.3",
     "express-writer": "0.0.4",
     "serve-favicon": "2.3.0",
@@ -29,6 +30,6 @@
     "grunt-concurrent": "0.4.3"
   },
   "devDependencies": {
-    "body-parser": "^1.14.1"
+    
   }
 }

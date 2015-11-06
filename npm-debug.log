@@ -1,0 +1,2692 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'update' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 silly mapToRegistry name basic-auth-connect
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/basic-auth-connect
+8 silly mapToRegistry name body-parser
+9 silly mapToRegistry using default registry
+10 silly mapToRegistry registry https://registry.npmjs.org/
+11 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+12 silly mapToRegistry name consolidate
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/consolidate
+16 silly mapToRegistry name express
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/express
+20 silly mapToRegistry name express-writer
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/express-writer
+24 silly mapToRegistry name govuk_frontend_toolkit
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/govuk_frontend_toolkit
+28 silly mapToRegistry name govuk_template_mustache
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/govuk_template_mustache
+32 silly mapToRegistry name grunt
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/grunt
+36 silly mapToRegistry name grunt-cli
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/grunt-cli
+40 silly mapToRegistry name grunt-concurrent
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/grunt-concurrent
+44 silly mapToRegistry name grunt-contrib-clean
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-clean
+48 silly mapToRegistry name grunt-contrib-copy
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-copy
+52 silly mapToRegistry name grunt-contrib-watch
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-watch
+56 silly mapToRegistry name grunt-nodemon
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/grunt-nodemon
+60 silly mapToRegistry name grunt-sass
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/grunt-sass
+64 silly mapToRegistry name grunt-text-replace
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/grunt-text-replace
+68 silly mapToRegistry name hogan.js
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry uri https://registry.npmjs.org/hogan.js
+72 silly mapToRegistry name minimist
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/minimist
+76 silly mapToRegistry name readdir
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://registry.npmjs.org/
+79 silly mapToRegistry uri https://registry.npmjs.org/readdir
+80 silly mapToRegistry name serve-favicon
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry uri https://registry.npmjs.org/serve-favicon
+84 silly mapToRegistry name node-sass
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry uri https://registry.npmjs.org/node-sass
+88 verbose request uri https://registry.npmjs.org/basic-auth-connect
+89 verbose request no auth needed
+90 info attempt registry request try #1 at 10:42:09 AM
+91 verbose request id 7244c084bef71c1a
+92 verbose etag "5XN1Q16GAYLHQ330V7EBKP3VC"
+93 http request GET https://registry.npmjs.org/basic-auth-connect
+94 verbose request uri https://registry.npmjs.org/body-parser
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 10:42:09 AM
+97 verbose etag "4EF9OPEPSD8UIIKBKIKG83CVS"
+98 http request GET https://registry.npmjs.org/body-parser
+99 verbose request uri https://registry.npmjs.org/consolidate
+100 verbose request no auth needed
+101 info attempt registry request try #1 at 10:42:09 AM
+102 verbose etag "GT1NNDIJPGACXS5UDSWLGWP8"
+103 http request GET https://registry.npmjs.org/consolidate
+104 verbose request uri https://registry.npmjs.org/express-writer
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 10:42:09 AM
+107 verbose etag "D2UDABQFOMGRS1QBIGYO196X5"
+108 http request GET https://registry.npmjs.org/express-writer
+109 verbose request uri https://registry.npmjs.org/govuk_template_mustache
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 10:42:09 AM
+112 verbose etag "E8TAE34TM9JCPQG6SMOZIDFZC"
+113 http request GET https://registry.npmjs.org/govuk_template_mustache
+114 verbose request uri https://registry.npmjs.org/govuk_frontend_toolkit
+115 verbose request no auth needed
+116 info attempt registry request try #1 at 10:42:09 AM
+117 verbose etag "DOLENS5OQDB4JT0BY182DYHX9"
+118 http request GET https://registry.npmjs.org/govuk_frontend_toolkit
+119 verbose request uri https://registry.npmjs.org/grunt-cli
+120 verbose request no auth needed
+121 info attempt registry request try #1 at 10:42:09 AM
+122 verbose etag "CF4R85261RBIPZBF8TTT6N3YI"
+123 http request GET https://registry.npmjs.org/grunt-cli
+124 verbose request uri https://registry.npmjs.org/grunt
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 10:42:09 AM
+127 verbose etag "6XTK26ZB9CNQZNS4JOCMDLYQT"
+128 http request GET https://registry.npmjs.org/grunt
+129 verbose request uri https://registry.npmjs.org/grunt-concurrent
+130 verbose request no auth needed
+131 info attempt registry request try #1 at 10:42:09 AM
+132 verbose etag "6AK0MG5BVAQB1E915W7RCJI7R"
+133 http request GET https://registry.npmjs.org/grunt-concurrent
+134 verbose request uri https://registry.npmjs.org/grunt-contrib-clean
+135 verbose request no auth needed
+136 info attempt registry request try #1 at 10:42:09 AM
+137 verbose etag "9PD7VM4X55SK567Q7UBH38CW7"
+138 http request GET https://registry.npmjs.org/grunt-contrib-clean
+139 verbose request uri https://registry.npmjs.org/express
+140 verbose request no auth needed
+141 info attempt registry request try #1 at 10:42:09 AM
+142 verbose etag "BJXJG13C3N3EELWQKWU5OWYVA"
+143 http request GET https://registry.npmjs.org/express
+144 verbose request uri https://registry.npmjs.org/grunt-contrib-copy
+145 verbose request no auth needed
+146 info attempt registry request try #1 at 10:42:09 AM
+147 verbose etag "6DJMZU237YANH6B4I8P4YLD4M"
+148 http request GET https://registry.npmjs.org/grunt-contrib-copy
+149 verbose request uri https://registry.npmjs.org/grunt-nodemon
+150 verbose request no auth needed
+151 info attempt registry request try #1 at 10:42:09 AM
+152 verbose etag "2UZOWEP80L38Q9RV3ZXEA3Q43"
+153 http request GET https://registry.npmjs.org/grunt-nodemon
+154 verbose request uri https://registry.npmjs.org/grunt-contrib-watch
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 10:42:09 AM
+157 verbose etag "58T460XIPOZ9D2JG06CXO5UR9"
+158 http request GET https://registry.npmjs.org/grunt-contrib-watch
+159 verbose request uri https://registry.npmjs.org/hogan.js
+160 verbose request no auth needed
+161 info attempt registry request try #1 at 10:42:09 AM
+162 verbose etag "C52KM8PKK9UA3NUX83A7D9BB2"
+163 http request GET https://registry.npmjs.org/hogan.js
+164 verbose request uri https://registry.npmjs.org/grunt-sass
+165 verbose request no auth needed
+166 info attempt registry request try #1 at 10:42:09 AM
+167 verbose etag "6XLS8Q88H2YE3Z6L1Q04HQSU6"
+168 http request GET https://registry.npmjs.org/grunt-sass
+169 verbose request uri https://registry.npmjs.org/minimist
+170 verbose request no auth needed
+171 info attempt registry request try #1 at 10:42:09 AM
+172 verbose etag "69M7CU915BTECSMEN77K0XJ4C"
+173 http request GET https://registry.npmjs.org/minimist
+174 verbose request uri https://registry.npmjs.org/readdir
+175 verbose request no auth needed
+176 info attempt registry request try #1 at 10:42:09 AM
+177 verbose etag "A15ZKZYBR1E1WSHOLQJM7415Z"
+178 http request GET https://registry.npmjs.org/readdir
+179 verbose request uri https://registry.npmjs.org/grunt-text-replace
+180 verbose request no auth needed
+181 info attempt registry request try #1 at 10:42:09 AM
+182 verbose etag "25FWASI2WUCGMLGGZI61MMFY0"
+183 http request GET https://registry.npmjs.org/grunt-text-replace
+184 verbose request uri https://registry.npmjs.org/serve-favicon
+185 verbose request no auth needed
+186 info attempt registry request try #1 at 10:42:09 AM
+187 verbose etag "GQLNFYPZ2Z06DI9P02T5ZAWV"
+188 http request GET https://registry.npmjs.org/serve-favicon
+189 verbose request uri https://registry.npmjs.org/node-sass
+190 verbose request no auth needed
+191 info attempt registry request try #1 at 10:42:09 AM
+192 verbose etag "6CLOJ9QARHMBDFJXQ5SC6WF04"
+193 http request GET https://registry.npmjs.org/node-sass
+194 http 304 https://registry.npmjs.org/consolidate
+195 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+195 verbose headers   via: '1.1 varnish',
+195 verbose headers   'cache-control': 'max-age=60',
+195 verbose headers   etag: '"GT1NNDIJPGACXS5UDSWLGWP8"',
+195 verbose headers   age: '21',
+195 verbose headers   connection: 'keep-alive',
+195 verbose headers   'x-served-by': 'cache-lhr6334-LHR',
+195 verbose headers   'x-cache': 'HIT',
+195 verbose headers   'x-cache-hits': '3',
+195 verbose headers   'x-timer': 'S1446806530.015751,VS0,VE0',
+195 verbose headers   vary: 'Accept' }
+196 silly get cb [ 304,
+196 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+196 silly get     via: '1.1 varnish',
+196 silly get     'cache-control': 'max-age=60',
+196 silly get     etag: '"GT1NNDIJPGACXS5UDSWLGWP8"',
+196 silly get     age: '21',
+196 silly get     connection: 'keep-alive',
+196 silly get     'x-served-by': 'cache-lhr6334-LHR',
+196 silly get     'x-cache': 'HIT',
+196 silly get     'x-cache-hits': '3',
+196 silly get     'x-timer': 'S1446806530.015751,VS0,VE0',
+196 silly get     vary: 'Accept' } ]
+197 verbose etag https://registry.npmjs.org/consolidate from cache
+198 verbose get saving consolidate to /Users/nicholascutting/.npm/registry.npmjs.org/consolidate/.cache.json
+199 http 304 https://registry.npmjs.org/basic-auth-connect
+200 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+200 verbose headers   via: '1.1 varnish',
+200 verbose headers   'cache-control': 'max-age=60',
+200 verbose headers   etag: '"5XN1Q16GAYLHQ330V7EBKP3VC"',
+200 verbose headers   age: '5',
+200 verbose headers   connection: 'keep-alive',
+200 verbose headers   'x-served-by': 'cache-lhr6334-LHR',
+200 verbose headers   'x-cache': 'HIT',
+200 verbose headers   'x-cache-hits': '1',
+200 verbose headers   'x-timer': 'S1446806530.025483,VS0,VE0',
+200 verbose headers   vary: 'Accept' }
+201 silly get cb [ 304,
+201 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+201 silly get     via: '1.1 varnish',
+201 silly get     'cache-control': 'max-age=60',
+201 silly get     etag: '"5XN1Q16GAYLHQ330V7EBKP3VC"',
+201 silly get     age: '5',
+201 silly get     connection: 'keep-alive',
+201 silly get     'x-served-by': 'cache-lhr6334-LHR',
+201 silly get     'x-cache': 'HIT',
+201 silly get     'x-cache-hits': '1',
+201 silly get     'x-timer': 'S1446806530.025483,VS0,VE0',
+201 silly get     vary: 'Accept' } ]
+202 verbose etag https://registry.npmjs.org/basic-auth-connect from cache
+203 verbose get saving basic-auth-connect to /Users/nicholascutting/.npm/registry.npmjs.org/basic-auth-connect/.cache.json
+204 http 304 https://registry.npmjs.org/body-parser
+205 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+205 verbose headers   via: '1.1 varnish',
+205 verbose headers   'cache-control': 'max-age=60',
+205 verbose headers   etag: '"4EF9OPEPSD8UIIKBKIKG83CVS"',
+205 verbose headers   age: '21',
+205 verbose headers   connection: 'keep-alive',
+205 verbose headers   'x-served-by': 'cache-lhr6322-LHR',
+205 verbose headers   'x-cache': 'HIT',
+205 verbose headers   'x-cache-hits': '1',
+205 verbose headers   'x-timer': 'S1446806530.025749,VS0,VE0',
+205 verbose headers   vary: 'Accept' }
+206 silly get cb [ 304,
+206 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+206 silly get     via: '1.1 varnish',
+206 silly get     'cache-control': 'max-age=60',
+206 silly get     etag: '"4EF9OPEPSD8UIIKBKIKG83CVS"',
+206 silly get     age: '21',
+206 silly get     connection: 'keep-alive',
+206 silly get     'x-served-by': 'cache-lhr6322-LHR',
+206 silly get     'x-cache': 'HIT',
+206 silly get     'x-cache-hits': '1',
+206 silly get     'x-timer': 'S1446806530.025749,VS0,VE0',
+206 silly get     vary: 'Accept' } ]
+207 verbose etag https://registry.npmjs.org/body-parser from cache
+208 verbose get saving body-parser to /Users/nicholascutting/.npm/registry.npmjs.org/body-parser/.cache.json
+209 http 304 https://registry.npmjs.org/express-writer
+210 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+210 verbose headers   via: '1.1 varnish',
+210 verbose headers   'cache-control': 'max-age=60',
+210 verbose headers   etag: '"D2UDABQFOMGRS1QBIGYO196X5"',
+210 verbose headers   age: '15',
+210 verbose headers   connection: 'keep-alive',
+210 verbose headers   'x-served-by': 'cache-lhr6325-LHR',
+210 verbose headers   'x-cache': 'HIT',
+210 verbose headers   'x-cache-hits': '2',
+210 verbose headers   'x-timer': 'S1446806530.026564,VS0,VE0',
+210 verbose headers   vary: 'Accept' }
+211 silly get cb [ 304,
+211 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+211 silly get     via: '1.1 varnish',
+211 silly get     'cache-control': 'max-age=60',
+211 silly get     etag: '"D2UDABQFOMGRS1QBIGYO196X5"',
+211 silly get     age: '15',
+211 silly get     connection: 'keep-alive',
+211 silly get     'x-served-by': 'cache-lhr6325-LHR',
+211 silly get     'x-cache': 'HIT',
+211 silly get     'x-cache-hits': '2',
+211 silly get     'x-timer': 'S1446806530.026564,VS0,VE0',
+211 silly get     vary: 'Accept' } ]
+212 verbose etag https://registry.npmjs.org/express-writer from cache
+213 verbose get saving express-writer to /Users/nicholascutting/.npm/registry.npmjs.org/express-writer/.cache.json
+214 http 304 https://registry.npmjs.org/express
+215 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+215 verbose headers   via: '1.1 varnish',
+215 verbose headers   'cache-control': 'max-age=60',
+215 verbose headers   etag: '"BJXJG13C3N3EELWQKWU5OWYVA"',
+215 verbose headers   age: '49',
+215 verbose headers   connection: 'keep-alive',
+215 verbose headers   'x-served-by': 'cache-lhr6328-LHR',
+215 verbose headers   'x-cache': 'HIT',
+215 verbose headers   'x-cache-hits': '3',
+215 verbose headers   'x-timer': 'S1446806530.026580,VS0,VE0',
+215 verbose headers   vary: 'Accept' }
+216 silly get cb [ 304,
+216 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+216 silly get     via: '1.1 varnish',
+216 silly get     'cache-control': 'max-age=60',
+216 silly get     etag: '"BJXJG13C3N3EELWQKWU5OWYVA"',
+216 silly get     age: '49',
+216 silly get     connection: 'keep-alive',
+216 silly get     'x-served-by': 'cache-lhr6328-LHR',
+216 silly get     'x-cache': 'HIT',
+216 silly get     'x-cache-hits': '3',
+216 silly get     'x-timer': 'S1446806530.026580,VS0,VE0',
+216 silly get     vary: 'Accept' } ]
+217 verbose etag https://registry.npmjs.org/express from cache
+218 verbose get saving express to /Users/nicholascutting/.npm/registry.npmjs.org/express/.cache.json
+219 http 304 https://registry.npmjs.org/grunt-contrib-clean
+220 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+220 verbose headers   via: '1.1 varnish',
+220 verbose headers   'cache-control': 'max-age=60',
+220 verbose headers   etag: '"9PD7VM4X55SK567Q7UBH38CW7"',
+220 verbose headers   age: '26',
+220 verbose headers   connection: 'keep-alive',
+220 verbose headers   'x-served-by': 'cache-lhr6325-LHR',
+220 verbose headers   'x-cache': 'HIT',
+220 verbose headers   'x-cache-hits': '1',
+220 verbose headers   'x-timer': 'S1446806530.027579,VS0,VE0',
+220 verbose headers   vary: 'Accept' }
+221 silly get cb [ 304,
+221 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+221 silly get     via: '1.1 varnish',
+221 silly get     'cache-control': 'max-age=60',
+221 silly get     etag: '"9PD7VM4X55SK567Q7UBH38CW7"',
+221 silly get     age: '26',
+221 silly get     connection: 'keep-alive',
+221 silly get     'x-served-by': 'cache-lhr6325-LHR',
+221 silly get     'x-cache': 'HIT',
+221 silly get     'x-cache-hits': '1',
+221 silly get     'x-timer': 'S1446806530.027579,VS0,VE0',
+221 silly get     vary: 'Accept' } ]
+222 verbose etag https://registry.npmjs.org/grunt-contrib-clean from cache
+223 verbose get saving grunt-contrib-clean to /Users/nicholascutting/.npm/registry.npmjs.org/grunt-contrib-clean/.cache.json
+224 http 304 https://registry.npmjs.org/govuk_template_mustache
+225 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+225 verbose headers   via: '1.1 varnish',
+225 verbose headers   'cache-control': 'max-age=60',
+225 verbose headers   etag: '"E8TAE34TM9JCPQG6SMOZIDFZC"',
+225 verbose headers   age: '15',
+225 verbose headers   connection: 'keep-alive',
+225 verbose headers   'x-served-by': 'cache-lhr6321-LHR',
+225 verbose headers   'x-cache': 'HIT',
+225 verbose headers   'x-cache-hits': '1',
+225 verbose headers   'x-timer': 'S1446806530.027542,VS0,VE0',
+225 verbose headers   vary: 'Accept' }
+226 silly get cb [ 304,
+226 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+226 silly get     via: '1.1 varnish',
+226 silly get     'cache-control': 'max-age=60',
+226 silly get     etag: '"E8TAE34TM9JCPQG6SMOZIDFZC"',
+226 silly get     age: '15',
+226 silly get     connection: 'keep-alive',
+226 silly get     'x-served-by': 'cache-lhr6321-LHR',
+226 silly get     'x-cache': 'HIT',
+226 silly get     'x-cache-hits': '1',
+226 silly get     'x-timer': 'S1446806530.027542,VS0,VE0',
+226 silly get     vary: 'Accept' } ]
+227 verbose etag https://registry.npmjs.org/govuk_template_mustache from cache
+228 verbose get saving govuk_template_mustache to /Users/nicholascutting/.npm/registry.npmjs.org/govuk_template_mustache/.cache.json
+229 http 304 https://registry.npmjs.org/grunt-cli
+230 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+230 verbose headers   via: '1.1 varnish',
+230 verbose headers   'cache-control': 'max-age=60',
+230 verbose headers   etag: '"CF4R85261RBIPZBF8TTT6N3YI"',
+230 verbose headers   age: '2',
+230 verbose headers   connection: 'keep-alive',
+230 verbose headers   'x-served-by': 'cache-lhr6323-LHR',
+230 verbose headers   'x-cache': 'HIT',
+230 verbose headers   'x-cache-hits': '1',
+230 verbose headers   'x-timer': 'S1446806530.027664,VS0,VE0',
+230 verbose headers   vary: 'Accept' }
+231 silly get cb [ 304,
+231 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+231 silly get     via: '1.1 varnish',
+231 silly get     'cache-control': 'max-age=60',
+231 silly get     etag: '"CF4R85261RBIPZBF8TTT6N3YI"',
+231 silly get     age: '2',
+231 silly get     connection: 'keep-alive',
+231 silly get     'x-served-by': 'cache-lhr6323-LHR',
+231 silly get     'x-cache': 'HIT',
+231 silly get     'x-cache-hits': '1',
+231 silly get     'x-timer': 'S1446806530.027664,VS0,VE0',
+231 silly get     vary: 'Accept' } ]
+232 verbose etag https://registry.npmjs.org/grunt-cli from cache
+233 verbose get saving grunt-cli to /Users/nicholascutting/.npm/registry.npmjs.org/grunt-cli/.cache.json
+234 http 304 https://registry.npmjs.org/readdir
+235 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+235 verbose headers   via: '1.1 varnish',
+235 verbose headers   'cache-control': 'max-age=60',
+235 verbose headers   etag: '"A15ZKZYBR1E1WSHOLQJM7415Z"',
+235 verbose headers   age: '15',
+235 verbose headers   connection: 'keep-alive',
+235 verbose headers   'x-served-by': 'cache-lhr6326-LHR',
+235 verbose headers   'x-cache': 'HIT',
+235 verbose headers   'x-cache-hits': '1',
+235 verbose headers   'x-timer': 'S1446806530.036937,VS0,VE0',
+235 verbose headers   vary: 'Accept' }
+236 silly get cb [ 304,
+236 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+236 silly get     via: '1.1 varnish',
+236 silly get     'cache-control': 'max-age=60',
+236 silly get     etag: '"A15ZKZYBR1E1WSHOLQJM7415Z"',
+236 silly get     age: '15',
+236 silly get     connection: 'keep-alive',
+236 silly get     'x-served-by': 'cache-lhr6326-LHR',
+236 silly get     'x-cache': 'HIT',
+236 silly get     'x-cache-hits': '1',
+236 silly get     'x-timer': 'S1446806530.036937,VS0,VE0',
+236 silly get     vary: 'Accept' } ]
+237 verbose etag https://registry.npmjs.org/readdir from cache
+238 verbose get saving readdir to /Users/nicholascutting/.npm/registry.npmjs.org/readdir/.cache.json
+239 http 304 https://registry.npmjs.org/govuk_frontend_toolkit
+240 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+240 verbose headers   via: '1.1 varnish',
+240 verbose headers   'cache-control': 'max-age=60',
+240 verbose headers   etag: '"DOLENS5OQDB4JT0BY182DYHX9"',
+240 verbose headers   age: '15',
+240 verbose headers   connection: 'keep-alive',
+240 verbose headers   'x-served-by': 'cache-lhr6327-LHR',
+240 verbose headers   'x-cache': 'HIT',
+240 verbose headers   'x-cache-hits': '1',
+240 verbose headers   'x-timer': 'S1446806530.037577,VS0,VE0',
+240 verbose headers   vary: 'Accept' }
+241 silly get cb [ 304,
+241 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+241 silly get     via: '1.1 varnish',
+241 silly get     'cache-control': 'max-age=60',
+241 silly get     etag: '"DOLENS5OQDB4JT0BY182DYHX9"',
+241 silly get     age: '15',
+241 silly get     connection: 'keep-alive',
+241 silly get     'x-served-by': 'cache-lhr6327-LHR',
+241 silly get     'x-cache': 'HIT',
+241 silly get     'x-cache-hits': '1',
+241 silly get     'x-timer': 'S1446806530.037577,VS0,VE0',
+241 silly get     vary: 'Accept' } ]
+242 verbose etag https://registry.npmjs.org/govuk_frontend_toolkit from cache
+243 verbose get saving govuk_frontend_toolkit to /Users/nicholascutting/.npm/registry.npmjs.org/govuk_frontend_toolkit/.cache.json
+244 http 304 https://registry.npmjs.org/minimist
+245 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+245 verbose headers   via: '1.1 varnish',
+245 verbose headers   'cache-control': 'max-age=60',
+245 verbose headers   etag: '"69M7CU915BTECSMEN77K0XJ4C"',
+245 verbose headers   age: '29',
+245 verbose headers   connection: 'keep-alive',
+245 verbose headers   'x-served-by': 'cache-lhr6324-LHR',
+245 verbose headers   'x-cache': 'HIT',
+245 verbose headers   'x-cache-hits': '3',
+245 verbose headers   'x-timer': 'S1446806530.038419,VS0,VE0',
+245 verbose headers   vary: 'Accept' }
+246 silly get cb [ 304,
+246 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+246 silly get     via: '1.1 varnish',
+246 silly get     'cache-control': 'max-age=60',
+246 silly get     etag: '"69M7CU915BTECSMEN77K0XJ4C"',
+246 silly get     age: '29',
+246 silly get     connection: 'keep-alive',
+246 silly get     'x-served-by': 'cache-lhr6324-LHR',
+246 silly get     'x-cache': 'HIT',
+246 silly get     'x-cache-hits': '3',
+246 silly get     'x-timer': 'S1446806530.038419,VS0,VE0',
+246 silly get     vary: 'Accept' } ]
+247 verbose etag https://registry.npmjs.org/minimist from cache
+248 verbose get saving minimist to /Users/nicholascutting/.npm/registry.npmjs.org/minimist/.cache.json
+249 http 304 https://registry.npmjs.org/grunt-text-replace
+250 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+250 verbose headers   via: '1.1 varnish',
+250 verbose headers   'cache-control': 'max-age=60',
+250 verbose headers   etag: '"25FWASI2WUCGMLGGZI61MMFY0"',
+250 verbose headers   age: '23',
+250 verbose headers   connection: 'keep-alive',
+250 verbose headers   'x-served-by': 'cache-lhr6328-LHR',
+250 verbose headers   'x-cache': 'HIT',
+250 verbose headers   'x-cache-hits': '1',
+250 verbose headers   'x-timer': 'S1446806530.038187,VS0,VE0',
+250 verbose headers   vary: 'Accept' }
+251 silly get cb [ 304,
+251 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+251 silly get     via: '1.1 varnish',
+251 silly get     'cache-control': 'max-age=60',
+251 silly get     etag: '"25FWASI2WUCGMLGGZI61MMFY0"',
+251 silly get     age: '23',
+251 silly get     connection: 'keep-alive',
+251 silly get     'x-served-by': 'cache-lhr6328-LHR',
+251 silly get     'x-cache': 'HIT',
+251 silly get     'x-cache-hits': '1',
+251 silly get     'x-timer': 'S1446806530.038187,VS0,VE0',
+251 silly get     vary: 'Accept' } ]
+252 verbose etag https://registry.npmjs.org/grunt-text-replace from cache
+253 verbose get saving grunt-text-replace to /Users/nicholascutting/.npm/registry.npmjs.org/grunt-text-replace/.cache.json
+254 http 304 https://registry.npmjs.org/node-sass
+255 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+255 verbose headers   via: '1.1 varnish',
+255 verbose headers   'cache-control': 'max-age=60',
+255 verbose headers   etag: '"6CLOJ9QARHMBDFJXQ5SC6WF04"',
+255 verbose headers   age: '53',
+255 verbose headers   connection: 'keep-alive',
+255 verbose headers   'x-served-by': 'cache-lhr6333-LHR',
+255 verbose headers   'x-cache': 'HIT',
+255 verbose headers   'x-cache-hits': '2',
+255 verbose headers   'x-timer': 'S1446806530.040425,VS0,VE0',
+255 verbose headers   vary: 'Accept' }
+256 silly get cb [ 304,
+256 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+256 silly get     via: '1.1 varnish',
+256 silly get     'cache-control': 'max-age=60',
+256 silly get     etag: '"6CLOJ9QARHMBDFJXQ5SC6WF04"',
+256 silly get     age: '53',
+256 silly get     connection: 'keep-alive',
+256 silly get     'x-served-by': 'cache-lhr6333-LHR',
+256 silly get     'x-cache': 'HIT',
+256 silly get     'x-cache-hits': '2',
+256 silly get     'x-timer': 'S1446806530.040425,VS0,VE0',
+256 silly get     vary: 'Accept' } ]
+257 verbose etag https://registry.npmjs.org/node-sass from cache
+258 verbose get saving node-sass to /Users/nicholascutting/.npm/registry.npmjs.org/node-sass/.cache.json
+259 http 304 https://registry.npmjs.org/grunt-nodemon
+260 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+260 verbose headers   via: '1.1 varnish',
+260 verbose headers   'cache-control': 'max-age=60',
+260 verbose headers   etag: '"2UZOWEP80L38Q9RV3ZXEA3Q43"',
+260 verbose headers   age: '35',
+260 verbose headers   connection: 'keep-alive',
+260 verbose headers   'x-served-by': 'cache-lhr6329-LHR',
+260 verbose headers   'x-cache': 'HIT',
+260 verbose headers   'x-cache-hits': '1',
+260 verbose headers   'x-timer': 'S1446806530.038975,VS0,VE0',
+260 verbose headers   vary: 'Accept' }
+261 silly get cb [ 304,
+261 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+261 silly get     via: '1.1 varnish',
+261 silly get     'cache-control': 'max-age=60',
+261 silly get     etag: '"2UZOWEP80L38Q9RV3ZXEA3Q43"',
+261 silly get     age: '35',
+261 silly get     connection: 'keep-alive',
+261 silly get     'x-served-by': 'cache-lhr6329-LHR',
+261 silly get     'x-cache': 'HIT',
+261 silly get     'x-cache-hits': '1',
+261 silly get     'x-timer': 'S1446806530.038975,VS0,VE0',
+261 silly get     vary: 'Accept' } ]
+262 verbose etag https://registry.npmjs.org/grunt-nodemon from cache
+263 verbose get saving grunt-nodemon to /Users/nicholascutting/.npm/registry.npmjs.org/grunt-nodemon/.cache.json
+264 http 304 https://registry.npmjs.org/grunt
+265 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+265 verbose headers   via: '1.1 varnish',
+265 verbose headers   'cache-control': 'max-age=60',
+265 verbose headers   etag: '"6XTK26ZB9CNQZNS4JOCMDLYQT"',
+265 verbose headers   age: '3',
+265 verbose headers   connection: 'keep-alive',
+265 verbose headers   'x-served-by': 'cache-lhr6329-LHR',
+265 verbose headers   'x-cache': 'HIT',
+265 verbose headers   'x-cache-hits': '1',
+265 verbose headers   'x-timer': 'S1446806530.039816,VS0,VE0',
+265 verbose headers   vary: 'Accept' }
+266 silly get cb [ 304,
+266 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+266 silly get     via: '1.1 varnish',
+266 silly get     'cache-control': 'max-age=60',
+266 silly get     etag: '"6XTK26ZB9CNQZNS4JOCMDLYQT"',
+266 silly get     age: '3',
+266 silly get     connection: 'keep-alive',
+266 silly get     'x-served-by': 'cache-lhr6329-LHR',
+266 silly get     'x-cache': 'HIT',
+266 silly get     'x-cache-hits': '1',
+266 silly get     'x-timer': 'S1446806530.039816,VS0,VE0',
+266 silly get     vary: 'Accept' } ]
+267 verbose etag https://registry.npmjs.org/grunt from cache
+268 verbose get saving grunt to /Users/nicholascutting/.npm/registry.npmjs.org/grunt/.cache.json
+269 http 304 https://registry.npmjs.org/grunt-contrib-copy
+270 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+270 verbose headers   via: '1.1 varnish',
+270 verbose headers   'cache-control': 'max-age=60',
+270 verbose headers   etag: '"6DJMZU237YANH6B4I8P4YLD4M"',
+270 verbose headers   age: '26',
+270 verbose headers   connection: 'keep-alive',
+270 verbose headers   'x-served-by': 'cache-lhr6324-LHR',
+270 verbose headers   'x-cache': 'HIT',
+270 verbose headers   'x-cache-hits': '1',
+270 verbose headers   'x-timer': 'S1446806530.039678,VS0,VE0',
+270 verbose headers   vary: 'Accept' }
+271 silly get cb [ 304,
+271 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+271 silly get     via: '1.1 varnish',
+271 silly get     'cache-control': 'max-age=60',
+271 silly get     etag: '"6DJMZU237YANH6B4I8P4YLD4M"',
+271 silly get     age: '26',
+271 silly get     connection: 'keep-alive',
+271 silly get     'x-served-by': 'cache-lhr6324-LHR',
+271 silly get     'x-cache': 'HIT',
+271 silly get     'x-cache-hits': '1',
+271 silly get     'x-timer': 'S1446806530.039678,VS0,VE0',
+271 silly get     vary: 'Accept' } ]
+272 verbose etag https://registry.npmjs.org/grunt-contrib-copy from cache
+273 verbose get saving grunt-contrib-copy to /Users/nicholascutting/.npm/registry.npmjs.org/grunt-contrib-copy/.cache.json
+274 http 304 https://registry.npmjs.org/grunt-contrib-watch
+275 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+275 verbose headers   via: '1.1 varnish',
+275 verbose headers   'cache-control': 'max-age=60',
+275 verbose headers   etag: '"58T460XIPOZ9D2JG06CXO5UR9"',
+275 verbose headers   age: '2',
+275 verbose headers   connection: 'keep-alive',
+275 verbose headers   'x-served-by': 'cache-lhr6334-LHR',
+275 verbose headers   'x-cache': 'HIT',
+275 verbose headers   'x-cache-hits': '1',
+275 verbose headers   'x-timer': 'S1446806530.040630,VS0,VE0',
+275 verbose headers   vary: 'Accept' }
+276 silly get cb [ 304,
+276 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+276 silly get     via: '1.1 varnish',
+276 silly get     'cache-control': 'max-age=60',
+276 silly get     etag: '"58T460XIPOZ9D2JG06CXO5UR9"',
+276 silly get     age: '2',
+276 silly get     connection: 'keep-alive',
+276 silly get     'x-served-by': 'cache-lhr6334-LHR',
+276 silly get     'x-cache': 'HIT',
+276 silly get     'x-cache-hits': '1',
+276 silly get     'x-timer': 'S1446806530.040630,VS0,VE0',
+276 silly get     vary: 'Accept' } ]
+277 verbose etag https://registry.npmjs.org/grunt-contrib-watch from cache
+278 verbose get saving grunt-contrib-watch to /Users/nicholascutting/.npm/registry.npmjs.org/grunt-contrib-watch/.cache.json
+279 http 304 https://registry.npmjs.org/hogan.js
+280 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+280 verbose headers   via: '1.1 varnish',
+280 verbose headers   'cache-control': 'max-age=60',
+280 verbose headers   etag: '"C52KM8PKK9UA3NUX83A7D9BB2"',
+280 verbose headers   age: '15',
+280 verbose headers   connection: 'keep-alive',
+280 verbose headers   'x-served-by': 'cache-lhr6324-LHR',
+280 verbose headers   'x-cache': 'HIT',
+280 verbose headers   'x-cache-hits': '1',
+280 verbose headers   'x-timer': 'S1446806530.040657,VS0,VE0',
+280 verbose headers   vary: 'Accept' }
+281 silly get cb [ 304,
+281 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+281 silly get     via: '1.1 varnish',
+281 silly get     'cache-control': 'max-age=60',
+281 silly get     etag: '"C52KM8PKK9UA3NUX83A7D9BB2"',
+281 silly get     age: '15',
+281 silly get     connection: 'keep-alive',
+281 silly get     'x-served-by': 'cache-lhr6324-LHR',
+281 silly get     'x-cache': 'HIT',
+281 silly get     'x-cache-hits': '1',
+281 silly get     'x-timer': 'S1446806530.040657,VS0,VE0',
+281 silly get     vary: 'Accept' } ]
+282 verbose etag https://registry.npmjs.org/hogan.js from cache
+283 verbose get saving hogan.js to /Users/nicholascutting/.npm/registry.npmjs.org/hogan.js/.cache.json
+284 http 304 https://registry.npmjs.org/grunt-sass
+285 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+285 verbose headers   via: '1.1 varnish',
+285 verbose headers   'cache-control': 'max-age=60',
+285 verbose headers   etag: '"6XLS8Q88H2YE3Z6L1Q04HQSU6"',
+285 verbose headers   age: '15',
+285 verbose headers   connection: 'keep-alive',
+285 verbose headers   'x-served-by': 'cache-lhr6335-LHR',
+285 verbose headers   'x-cache': 'HIT',
+285 verbose headers   'x-cache-hits': '1',
+285 verbose headers   'x-timer': 'S1446806530.047135,VS0,VE0',
+285 verbose headers   vary: 'Accept' }
+286 silly get cb [ 304,
+286 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+286 silly get     via: '1.1 varnish',
+286 silly get     'cache-control': 'max-age=60',
+286 silly get     etag: '"6XLS8Q88H2YE3Z6L1Q04HQSU6"',
+286 silly get     age: '15',
+286 silly get     connection: 'keep-alive',
+286 silly get     'x-served-by': 'cache-lhr6335-LHR',
+286 silly get     'x-cache': 'HIT',
+286 silly get     'x-cache-hits': '1',
+286 silly get     'x-timer': 'S1446806530.047135,VS0,VE0',
+286 silly get     vary: 'Accept' } ]
+287 verbose etag https://registry.npmjs.org/grunt-sass from cache
+288 verbose get saving grunt-sass to /Users/nicholascutting/.npm/registry.npmjs.org/grunt-sass/.cache.json
+289 http 304 https://registry.npmjs.org/grunt-concurrent
+290 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+290 verbose headers   via: '1.1 varnish',
+290 verbose headers   'cache-control': 'max-age=60',
+290 verbose headers   etag: '"6AK0MG5BVAQB1E915W7RCJI7R"',
+290 verbose headers   age: '52',
+290 verbose headers   connection: 'keep-alive',
+290 verbose headers   'x-served-by': 'cache-lhr6324-LHR',
+290 verbose headers   'x-cache': 'HIT',
+290 verbose headers   'x-cache-hits': '13',
+290 verbose headers   'x-timer': 'S1446806530.045733,VS0,VE0',
+290 verbose headers   vary: 'Accept' }
+291 silly get cb [ 304,
+291 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+291 silly get     via: '1.1 varnish',
+291 silly get     'cache-control': 'max-age=60',
+291 silly get     etag: '"6AK0MG5BVAQB1E915W7RCJI7R"',
+291 silly get     age: '52',
+291 silly get     connection: 'keep-alive',
+291 silly get     'x-served-by': 'cache-lhr6324-LHR',
+291 silly get     'x-cache': 'HIT',
+291 silly get     'x-cache-hits': '13',
+291 silly get     'x-timer': 'S1446806530.045733,VS0,VE0',
+291 silly get     vary: 'Accept' } ]
+292 verbose etag https://registry.npmjs.org/grunt-concurrent from cache
+293 verbose get saving grunt-concurrent to /Users/nicholascutting/.npm/registry.npmjs.org/grunt-concurrent/.cache.json
+294 http 304 https://registry.npmjs.org/serve-favicon
+295 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+295 verbose headers   via: '1.1 varnish',
+295 verbose headers   'cache-control': 'max-age=60',
+295 verbose headers   etag: '"GQLNFYPZ2Z06DI9P02T5ZAWV"',
+295 verbose headers   age: '0',
+295 verbose headers   connection: 'keep-alive',
+295 verbose headers   'x-served-by': 'cache-lhr6332-LHR',
+295 verbose headers   'x-cache': 'HIT',
+295 verbose headers   'x-cache-hits': '1',
+295 verbose headers   'x-timer': 'S1446806530.057647,VS0,VE97',
+295 verbose headers   vary: 'Accept' }
+296 silly get cb [ 304,
+296 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+296 silly get     via: '1.1 varnish',
+296 silly get     'cache-control': 'max-age=60',
+296 silly get     etag: '"GQLNFYPZ2Z06DI9P02T5ZAWV"',
+296 silly get     age: '0',
+296 silly get     connection: 'keep-alive',
+296 silly get     'x-served-by': 'cache-lhr6332-LHR',
+296 silly get     'x-cache': 'HIT',
+296 silly get     'x-cache-hits': '1',
+296 silly get     'x-timer': 'S1446806530.057647,VS0,VE97',
+296 silly get     vary: 'Accept' } ]
+297 verbose etag https://registry.npmjs.org/serve-favicon from cache
+298 verbose get saving serve-favicon to /Users/nicholascutting/.npm/registry.npmjs.org/serve-favicon/.cache.json
+299 verbose outdated not updating govuk_template_mustache because it's currently at the maximum version that matches its specified semver range
+300 verbose outdated not updating grunt-concurrent because it's currently at the maximum version that matches its specified semver range
+301 verbose outdated not updating grunt-contrib-clean because it's currently at the maximum version that matches its specified semver range
+302 verbose outdated not updating grunt-contrib-copy because it's currently at the maximum version that matches its specified semver range
+303 verbose outdated not updating grunt-contrib-watch because it's currently at the maximum version that matches its specified semver range
+304 verbose outdated not updating grunt-sass because it's currently at the maximum version that matches its specified semver range
+305 verbose outdated not updating grunt-text-replace because it's currently at the maximum version that matches its specified semver range
+306 verbose outdated not updating minimist because it's currently at the maximum version that matches its specified semver range
+307 verbose outdated not updating readdir because it's currently at the maximum version that matches its specified semver range
+308 info outdated updating [ { dep:
+308 info outdated      { package: [Object],
+308 info outdated        path: '/Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master',
+308 info outdated        parent: [Object],
+308 info outdated        isMissing: true },
+308 info outdated     depname: 'node-sass',
+308 info outdated     current: undefined,
+308 info outdated     wanted: '3.3.3',
+308 info outdated     latest: '3.4.1',
+308 info outdated     req: '3.3.3',
+308 info outdated     what: 'node-sass@3.3.3' } ]
+309 silly loadCurrentTree Starting
+310 silly install loadCurrentTree
+311 silly install readLocalPackageData
+312 silly fetchPackageMetaData node-sass@3.3.3
+313 silly fetchNamedPackageData node-sass
+314 silly mapToRegistry name node-sass
+315 silly mapToRegistry using default registry
+316 silly mapToRegistry registry https://registry.npmjs.org/
+317 silly mapToRegistry uri https://registry.npmjs.org/node-sass
+318 verbose get https://registry.npmjs.org/node-sass not expired, no request
+319 silly install normalizeTree
+320 silly loadCurrentTree Finishing
+321 silly loadIdealTree Starting
+322 silly install loadIdealTree
+323 silly cloneCurrentTree Starting
+324 silly install cloneCurrentTreeToIdealTree
+325 silly cloneCurrentTree Finishing
+326 silly loadShrinkwrap Starting
+327 silly install loadShrinkwrap
+328 silly loadShrinkwrap Finishing
+329 silly loadAllDepsIntoIdealTree Starting
+330 silly install loadAllDepsIntoIdealTree
+331 silly resolveWithNewModule node-sass@3.3.3 checking installable status
+332 silly cache add args [ 'node-sass@3.3.3', null ]
+333 verbose cache add spec node-sass@3.3.3
+334 silly cache add parsed spec Result {
+334 silly cache add   raw: 'node-sass@3.3.3',
+334 silly cache add   scope: null,
+334 silly cache add   name: 'node-sass',
+334 silly cache add   rawSpec: '3.3.3',
+334 silly cache add   spec: '3.3.3',
+334 silly cache add   type: 'version' }
+335 silly addNamed node-sass@3.3.3
+336 verbose addNamed "3.3.3" is a plain semver version for node-sass
+337 silly mapToRegistry name node-sass
+338 silly mapToRegistry using default registry
+339 silly mapToRegistry registry https://registry.npmjs.org/
+340 silly mapToRegistry uri https://registry.npmjs.org/node-sass
+341 verbose addNameVersion registry:https://registry.npmjs.org/node-sass not in flight; fetching
+342 verbose get https://registry.npmjs.org/node-sass not expired, no request
+343 silly cache afterAdd node-sass@3.3.3
+344 verbose afterAdd /Users/nicholascutting/.npm/node-sass/3.3.3/package/package.json not in flight; writing
+345 verbose afterAdd /Users/nicholascutting/.npm/node-sass/3.3.3/package/package.json written
+346 silly fetchNamedPackageData gaze
+347 silly mapToRegistry name gaze
+348 silly mapToRegistry using default registry
+349 silly mapToRegistry registry https://registry.npmjs.org/
+350 silly mapToRegistry uri https://registry.npmjs.org/gaze
+351 silly fetchNamedPackageData glob
+352 silly mapToRegistry name glob
+353 silly mapToRegistry using default registry
+354 silly mapToRegistry registry https://registry.npmjs.org/
+355 silly mapToRegistry uri https://registry.npmjs.org/glob
+356 silly fetchNamedPackageData mkdirp
+357 silly mapToRegistry name mkdirp
+358 silly mapToRegistry using default registry
+359 silly mapToRegistry registry https://registry.npmjs.org/
+360 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+361 verbose request uri https://registry.npmjs.org/gaze
+362 verbose request no auth needed
+363 info attempt registry request try #1 at 10:42:10 AM
+364 verbose etag "DWYI2TV4A5JMAHCQCOBY81UR6"
+365 http request GET https://registry.npmjs.org/gaze
+366 verbose request uri https://registry.npmjs.org/mkdirp
+367 verbose request no auth needed
+368 info attempt registry request try #1 at 10:42:10 AM
+369 verbose etag "1UB4NNRWTFQ3VJ9JC6OMA4Z8T"
+370 http request GET https://registry.npmjs.org/mkdirp
+371 verbose request uri https://registry.npmjs.org/glob
+372 verbose request no auth needed
+373 info attempt registry request try #1 at 10:42:10 AM
+374 verbose etag "2E6IF5Y7BMJVETG2NRGLQ1KXX"
+375 http request GET https://registry.npmjs.org/glob
+376 http 304 https://registry.npmjs.org/gaze
+377 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+377 verbose headers   via: '1.1 varnish',
+377 verbose headers   'cache-control': 'max-age=60',
+377 verbose headers   etag: '"DWYI2TV4A5JMAHCQCOBY81UR6"',
+377 verbose headers   age: '15',
+377 verbose headers   connection: 'keep-alive',
+377 verbose headers   'x-served-by': 'cache-lhr6335-LHR',
+377 verbose headers   'x-cache': 'HIT',
+377 verbose headers   'x-cache-hits': '1',
+377 verbose headers   'x-timer': 'S1446806530.808778,VS0,VE0',
+377 verbose headers   vary: 'Accept' }
+378 silly get cb [ 304,
+378 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+378 silly get     via: '1.1 varnish',
+378 silly get     'cache-control': 'max-age=60',
+378 silly get     etag: '"DWYI2TV4A5JMAHCQCOBY81UR6"',
+378 silly get     age: '15',
+378 silly get     connection: 'keep-alive',
+378 silly get     'x-served-by': 'cache-lhr6335-LHR',
+378 silly get     'x-cache': 'HIT',
+378 silly get     'x-cache-hits': '1',
+378 silly get     'x-timer': 'S1446806530.808778,VS0,VE0',
+378 silly get     vary: 'Accept' } ]
+379 verbose etag https://registry.npmjs.org/gaze from cache
+380 verbose get saving gaze to /Users/nicholascutting/.npm/registry.npmjs.org/gaze/.cache.json
+381 http 304 https://registry.npmjs.org/glob
+382 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+382 verbose headers   via: '1.1 varnish',
+382 verbose headers   'cache-control': 'max-age=60',
+382 verbose headers   etag: '"2E6IF5Y7BMJVETG2NRGLQ1KXX"',
+382 verbose headers   age: '8',
+382 verbose headers   connection: 'keep-alive',
+382 verbose headers   'x-served-by': 'cache-lhr6332-LHR',
+382 verbose headers   'x-cache': 'HIT',
+382 verbose headers   'x-cache-hits': '1',
+382 verbose headers   'x-timer': 'S1446806530.811431,VS0,VE0',
+382 verbose headers   vary: 'Accept' }
+383 silly get cb [ 304,
+383 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+383 silly get     via: '1.1 varnish',
+383 silly get     'cache-control': 'max-age=60',
+383 silly get     etag: '"2E6IF5Y7BMJVETG2NRGLQ1KXX"',
+383 silly get     age: '8',
+383 silly get     connection: 'keep-alive',
+383 silly get     'x-served-by': 'cache-lhr6332-LHR',
+383 silly get     'x-cache': 'HIT',
+383 silly get     'x-cache-hits': '1',
+383 silly get     'x-timer': 'S1446806530.811431,VS0,VE0',
+383 silly get     vary: 'Accept' } ]
+384 verbose etag https://registry.npmjs.org/glob from cache
+385 verbose get saving glob to /Users/nicholascutting/.npm/registry.npmjs.org/glob/.cache.json
+386 http 304 https://registry.npmjs.org/mkdirp
+387 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+387 verbose headers   via: '1.1 varnish',
+387 verbose headers   'cache-control': 'max-age=60',
+387 verbose headers   etag: '"1UB4NNRWTFQ3VJ9JC6OMA4Z8T"',
+387 verbose headers   age: '45',
+387 verbose headers   connection: 'keep-alive',
+387 verbose headers   'x-served-by': 'cache-lhr6320-LHR',
+387 verbose headers   'x-cache': 'HIT',
+387 verbose headers   'x-cache-hits': '9',
+387 verbose headers   'x-timer': 'S1446806530.811087,VS0,VE0',
+387 verbose headers   vary: 'Accept' }
+388 silly get cb [ 304,
+388 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+388 silly get     via: '1.1 varnish',
+388 silly get     'cache-control': 'max-age=60',
+388 silly get     etag: '"1UB4NNRWTFQ3VJ9JC6OMA4Z8T"',
+388 silly get     age: '45',
+388 silly get     connection: 'keep-alive',
+388 silly get     'x-served-by': 'cache-lhr6320-LHR',
+388 silly get     'x-cache': 'HIT',
+388 silly get     'x-cache-hits': '9',
+388 silly get     'x-timer': 'S1446806530.811087,VS0,VE0',
+388 silly get     vary: 'Accept' } ]
+389 verbose etag https://registry.npmjs.org/mkdirp from cache
+390 verbose get saving mkdirp to /Users/nicholascutting/.npm/registry.npmjs.org/mkdirp/.cache.json
+391 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+392 silly cache add args [ 'mkdirp@^0.5.1', null ]
+393 verbose cache add spec mkdirp@^0.5.1
+394 silly cache add parsed spec Result {
+394 silly cache add   raw: 'mkdirp@^0.5.1',
+394 silly cache add   scope: null,
+394 silly cache add   name: 'mkdirp',
+394 silly cache add   rawSpec: '^0.5.1',
+394 silly cache add   spec: '>=0.5.1 <0.6.0',
+394 silly cache add   type: 'range' }
+395 silly addNamed mkdirp@>=0.5.1 <0.6.0
+396 verbose addNamed ">=0.5.1 <0.6.0" is a valid semver range for mkdirp
+397 silly addNameRange { name: 'mkdirp', range: '>=0.5.1 <0.6.0', hasData: false }
+398 silly mapToRegistry name mkdirp
+399 silly mapToRegistry using default registry
+400 silly mapToRegistry registry https://registry.npmjs.org/
+401 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+402 verbose addNameRange registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+403 silly resolveWithNewModule glob@5.0.15 checking installable status
+404 silly cache add args [ 'glob@^5.0.14', null ]
+405 verbose cache add spec glob@^5.0.14
+406 silly cache add parsed spec Result {
+406 silly cache add   raw: 'glob@^5.0.14',
+406 silly cache add   scope: null,
+406 silly cache add   name: 'glob',
+406 silly cache add   rawSpec: '^5.0.14',
+406 silly cache add   spec: '>=5.0.14 <6.0.0',
+406 silly cache add   type: 'range' }
+407 silly addNamed glob@>=5.0.14 <6.0.0
+408 verbose addNamed ">=5.0.14 <6.0.0" is a valid semver range for glob
+409 silly addNameRange { name: 'glob', range: '>=5.0.14 <6.0.0', hasData: false }
+410 silly mapToRegistry name glob
+411 silly mapToRegistry using default registry
+412 silly mapToRegistry registry https://registry.npmjs.org/
+413 silly mapToRegistry uri https://registry.npmjs.org/glob
+414 verbose addNameRange registry:https://registry.npmjs.org/glob not in flight; fetching
+415 silly resolveWithNewModule gaze@0.5.2 checking installable status
+416 silly cache add args [ 'gaze@^0.5.1', null ]
+417 verbose cache add spec gaze@^0.5.1
+418 silly cache add parsed spec Result {
+418 silly cache add   raw: 'gaze@^0.5.1',
+418 silly cache add   scope: null,
+418 silly cache add   name: 'gaze',
+418 silly cache add   rawSpec: '^0.5.1',
+418 silly cache add   spec: '>=0.5.1 <0.6.0',
+418 silly cache add   type: 'range' }
+419 silly addNamed gaze@>=0.5.1 <0.6.0
+420 verbose addNamed ">=0.5.1 <0.6.0" is a valid semver range for gaze
+421 silly addNameRange { name: 'gaze', range: '>=0.5.1 <0.6.0', hasData: false }
+422 silly mapToRegistry name gaze
+423 silly mapToRegistry using default registry
+424 silly mapToRegistry registry https://registry.npmjs.org/
+425 silly mapToRegistry uri https://registry.npmjs.org/gaze
+426 verbose addNameRange registry:https://registry.npmjs.org/gaze not in flight; fetching
+427 verbose get https://registry.npmjs.org/mkdirp not expired, no request
+428 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.1 <0.6.0', hasData: true }
+429 silly addNameRange versions [ 'mkdirp',
+429 silly addNameRange   [ '0.0.1',
+429 silly addNameRange     '0.0.2',
+429 silly addNameRange     '0.0.3',
+429 silly addNameRange     '0.0.4',
+429 silly addNameRange     '0.0.5',
+429 silly addNameRange     '0.0.6',
+429 silly addNameRange     '0.0.7',
+429 silly addNameRange     '0.1.0',
+429 silly addNameRange     '0.2.0',
+429 silly addNameRange     '0.2.1',
+429 silly addNameRange     '0.2.2',
+429 silly addNameRange     '0.3.0',
+429 silly addNameRange     '0.3.1',
+429 silly addNameRange     '0.3.2',
+429 silly addNameRange     '0.3.3',
+429 silly addNameRange     '0.3.4',
+429 silly addNameRange     '0.3.5',
+429 silly addNameRange     '0.4.0',
+429 silly addNameRange     '0.4.1',
+429 silly addNameRange     '0.4.2',
+429 silly addNameRange     '0.5.0',
+429 silly addNameRange     '0.5.1' ] ]
+430 silly addNamed mkdirp@0.5.1
+431 verbose addNamed "0.5.1" is a plain semver version for mkdirp
+432 verbose get https://registry.npmjs.org/glob not expired, no request
+433 silly addNameRange number 2 { name: 'glob', range: '>=5.0.14 <6.0.0', hasData: true }
+434 silly addNameRange versions [ 'glob',
+434 silly addNameRange   [ '1.1.0',
+434 silly addNameRange     '2.0.9',
+434 silly addNameRange     '2.0.8',
+434 silly addNameRange     '2.0.7',
+434 silly addNameRange     '2.1.0',
+434 silly addNameRange     '3.0.0',
+434 silly addNameRange     '3.0.1',
+434 silly addNameRange     '3.1.0',
+434 silly addNameRange     '3.1.1',
+434 silly addNameRange     '3.1.2',
+434 silly addNameRange     '3.1.3',
+434 silly addNameRange     '3.1.4',
+434 silly addNameRange     '3.1.5',
+434 silly addNameRange     '3.1.6',
+434 silly addNameRange     '3.1.7',
+434 silly addNameRange     '3.1.9',
+434 silly addNameRange     '3.1.10',
+434 silly addNameRange     '3.1.11',
+434 silly addNameRange     '3.1.12',
+434 silly addNameRange     '3.1.13',
+434 silly addNameRange     '3.1.14',
+434 silly addNameRange     '3.1.15',
+434 silly addNameRange     '3.1.16',
+434 silly addNameRange     '3.1.17',
+434 silly addNameRange     '3.1.18',
+434 silly addNameRange     '3.1.19',
+434 silly addNameRange     '3.1.20',
+434 silly addNameRange     '3.1.21',
+434 silly addNameRange     '3.2.0',
+434 silly addNameRange     '3.2.1',
+434 silly addNameRange     '3.2.3',
+434 silly addNameRange     '3.2.4',
+434 silly addNameRange     '3.2.5',
+434 silly addNameRange     '3.2.6',
+434 silly addNameRange     '3.2.7',
+434 silly addNameRange     '3.2.8',
+434 silly addNameRange     '3.2.9',
+434 silly addNameRange     '3.2.10',
+434 silly addNameRange     '3.2.11',
+434 silly addNameRange     '4.0.0',
+434 silly addNameRange     '4.0.1',
+434 silly addNameRange     '4.0.2',
+434 silly addNameRange     '4.0.3',
+434 silly addNameRange     '4.0.4',
+434 silly addNameRange     '4.0.5',
+434 silly addNameRange     '4.0.6',
+434 silly addNameRange     '4.1.2-beta',
+434 silly addNameRange     '4.1.2',
+434 silly addNameRange     '4.1.3',
+434 silly addNameRange     '4.1.4',
+434 silly addNameRange     '4.1.5',
+434 silly addNameRange     '4.1.6',
+434 silly addNameRange     '4.2.0',
+434 silly addNameRange     '4.2.1',
+434 silly addNameRange     '4.2.2',
+434 silly addNameRange     '4.3.0',
+434 silly addNameRange     '4.3.1',
+434 silly addNameRange     '4.3.2',
+434 silly addNameRange     '4.3.3',
+434 silly addNameRange     '4.3.4',
+434 silly addNameRange     '4.3.5',
+434 silly addNameRange     '4.4.0',
+434 silly addNameRange     '4.4.2',
+434 silly addNameRange     '4.5.0',
+434 silly addNameRange     '5.0.0',
+434 silly addNameRange     '4.5.1',
+434 silly addNameRange     '5.0.1',
+434 silly addNameRange     '4.5.2',
+434 silly addNameRange     '5.0.2',
+434 silly addNameRange     '4.5.3',
+434 silly addNameRange     '5.0.3',
+434 silly addNameRange     '5.0.4',
+434 silly addNameRange     '5.0.5',
+434 silly addNameRange     '5.0.6',
+434 silly addNameRange     '5.0.7',
+434 silly addNameRange     '5.0.9',
+434 silly addNameRange     '5.0.10',
+434 silly addNameRange     '5.0.11',
+434 silly addNameRange     '5.0.12',
+434 silly addNameRange     '5.0.13',
+434 silly addNameRange     '5.0.14',
+434 silly addNameRange     '5.0.15' ] ]
+435 silly addNamed glob@5.0.15
+436 verbose addNamed "5.0.15" is a plain semver version for glob
+437 verbose get https://registry.npmjs.org/gaze not expired, no request
+438 silly addNameRange number 2 { name: 'gaze', range: '>=0.5.1 <0.6.0', hasData: true }
+439 silly addNameRange versions [ 'gaze',
+439 silly addNameRange   [ '0.1.0',
+439 silly addNameRange     '0.1.1',
+439 silly addNameRange     '0.1.2',
+439 silly addNameRange     '0.1.3',
+439 silly addNameRange     '0.1.4',
+439 silly addNameRange     '0.1.5',
+439 silly addNameRange     '0.1.6',
+439 silly addNameRange     '0.2.0',
+439 silly addNameRange     '0.2.1',
+439 silly addNameRange     '0.2.2',
+439 silly addNameRange     '0.3.0',
+439 silly addNameRange     '0.3.1',
+439 silly addNameRange     '0.3.2',
+439 silly addNameRange     '0.3.3',
+439 silly addNameRange     '0.3.4',
+439 silly addNameRange     '0.4.0',
+439 silly addNameRange     '0.4.1',
+439 silly addNameRange     '0.4.2',
+439 silly addNameRange     '0.4.3',
+439 silly addNameRange     '0.5.0',
+439 silly addNameRange     '0.5.1',
+439 silly addNameRange     '0.6.0',
+439 silly addNameRange     '0.6.1',
+439 silly addNameRange     '0.6.2',
+439 silly addNameRange     '0.6.3',
+439 silly addNameRange     '0.6.4',
+439 silly addNameRange     '0.5.2' ] ]
+440 silly addNamed gaze@0.5.2
+441 verbose addNamed "0.5.2" is a plain semver version for gaze
+442 silly cache afterAdd glob@5.0.15
+443 verbose afterAdd /Users/nicholascutting/.npm/glob/5.0.15/package/package.json not in flight; writing
+444 silly cache afterAdd gaze@0.5.2
+445 verbose afterAdd /Users/nicholascutting/.npm/gaze/0.5.2/package/package.json not in flight; writing
+446 silly cache afterAdd mkdirp@0.5.1
+447 verbose afterAdd /Users/nicholascutting/.npm/mkdirp/0.5.1/package/package.json not in flight; writing
+448 verbose afterAdd /Users/nicholascutting/.npm/glob/5.0.15/package/package.json written
+449 verbose afterAdd /Users/nicholascutting/.npm/gaze/0.5.2/package/package.json written
+450 verbose afterAdd /Users/nicholascutting/.npm/mkdirp/0.5.1/package/package.json written
+451 silly fetchNamedPackageData minimatch
+452 silly mapToRegistry name minimatch
+453 silly mapToRegistry using default registry
+454 silly mapToRegistry registry https://registry.npmjs.org/
+455 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+456 verbose request uri https://registry.npmjs.org/minimatch
+457 verbose request no auth needed
+458 info attempt registry request try #1 at 10:42:10 AM
+459 verbose etag "1NRVLAPXT3XMB0QYUCYMZ8XB"
+460 http request GET https://registry.npmjs.org/minimatch
+461 http 304 https://registry.npmjs.org/minimatch
+462 verbose headers { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+462 verbose headers   via: '1.1 varnish',
+462 verbose headers   'cache-control': 'max-age=60',
+462 verbose headers   etag: '"1NRVLAPXT3XMB0QYUCYMZ8XB"',
+462 verbose headers   age: '30',
+462 verbose headers   connection: 'keep-alive',
+462 verbose headers   'x-served-by': 'cache-lhr6326-LHR',
+462 verbose headers   'x-cache': 'HIT',
+462 verbose headers   'x-cache-hits': '8',
+462 verbose headers   'x-timer': 'S1446806530.929765,VS0,VE0',
+462 verbose headers   vary: 'Accept' }
+463 silly get cb [ 304,
+463 silly get   { date: 'Fri, 06 Nov 2015 10:42:10 GMT',
+463 silly get     via: '1.1 varnish',
+463 silly get     'cache-control': 'max-age=60',
+463 silly get     etag: '"1NRVLAPXT3XMB0QYUCYMZ8XB"',
+463 silly get     age: '30',
+463 silly get     connection: 'keep-alive',
+463 silly get     'x-served-by': 'cache-lhr6326-LHR',
+463 silly get     'x-cache': 'HIT',
+463 silly get     'x-cache-hits': '8',
+463 silly get     'x-timer': 'S1446806530.929765,VS0,VE0',
+463 silly get     vary: 'Accept' } ]
+464 verbose etag https://registry.npmjs.org/minimatch from cache
+465 verbose get saving minimatch to /Users/nicholascutting/.npm/registry.npmjs.org/minimatch/.cache.json
+466 silly resolveWithNewModule minimatch@3.0.0 checking installable status
+467 silly cache add args [ 'minimatch@2 || 3', null ]
+468 verbose cache add spec minimatch@2 || 3
+469 silly cache add parsed spec Result {
+469 silly cache add   raw: 'minimatch@2 || 3',
+469 silly cache add   scope: null,
+469 silly cache add   name: 'minimatch',
+469 silly cache add   rawSpec: '2 || 3',
+469 silly cache add   spec: '>=2.0.0 <3.0.0||>=3.0.0 <4.0.0',
+469 silly cache add   type: 'range' }
+470 silly addNamed minimatch@>=2.0.0 <3.0.0||>=3.0.0 <4.0.0
+471 verbose addNamed ">=2.0.0 <3.0.0||>=3.0.0 <4.0.0" is a valid semver range for minimatch
+472 silly addNameRange { name: 'minimatch',
+472 silly addNameRange   range: '>=2.0.0 <3.0.0||>=3.0.0 <4.0.0',
+472 silly addNameRange   hasData: false }
+473 silly mapToRegistry name minimatch
+474 silly mapToRegistry using default registry
+475 silly mapToRegistry registry https://registry.npmjs.org/
+476 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+477 verbose addNameRange registry:https://registry.npmjs.org/minimatch not in flight; fetching
+478 verbose get https://registry.npmjs.org/minimatch not expired, no request
+479 silly addNameRange number 2 { name: 'minimatch',
+479 silly addNameRange   range: '>=2.0.0 <3.0.0||>=3.0.0 <4.0.0',
+479 silly addNameRange   hasData: true }
+480 silly addNameRange versions [ 'minimatch',
+480 silly addNameRange   [ '0.0.1',
+480 silly addNameRange     '0.0.2',
+480 silly addNameRange     '0.0.4',
+480 silly addNameRange     '0.0.5',
+480 silly addNameRange     '0.1.1',
+480 silly addNameRange     '0.1.2',
+480 silly addNameRange     '0.1.3',
+480 silly addNameRange     '0.1.4',
+480 silly addNameRange     '0.1.5',
+480 silly addNameRange     '0.2.0',
+480 silly addNameRange     '0.2.2',
+480 silly addNameRange     '0.2.3',
+480 silly addNameRange     '0.2.4',
+480 silly addNameRange     '0.2.5',
+480 silly addNameRange     '0.2.6',
+480 silly addNameRange     '0.2.7',
+480 silly addNameRange     '0.2.8',
+480 silly addNameRange     '0.2.9',
+480 silly addNameRange     '0.2.10',
+480 silly addNameRange     '0.2.11',
+480 silly addNameRange     '0.2.12',
+480 silly addNameRange     '0.2.13',
+480 silly addNameRange     '0.2.14',
+480 silly addNameRange     '0.3.0',
+480 silly addNameRange     '0.4.0',
+480 silly addNameRange     '1.0.0',
+480 silly addNameRange     '2.0.0',
+480 silly addNameRange     '2.0.1',
+480 silly addNameRange     '2.0.2',
+480 silly addNameRange     '2.0.3',
+480 silly addNameRange     '2.0.4',
+480 silly addNameRange     '2.0.5',
+480 silly addNameRange     '2.0.6',
+480 silly addNameRange     '2.0.7',
+480 silly addNameRange     '2.0.8',
+480 silly addNameRange     '2.0.9',
+480 silly addNameRange     '2.0.10',
+480 silly addNameRange     '3.0.0' ] ]
+481 silly addNamed minimatch@3.0.0
+482 verbose addNamed "3.0.0" is a plain semver version for minimatch
+483 silly cache afterAdd minimatch@3.0.0
+484 verbose afterAdd /Users/nicholascutting/.npm/minimatch/3.0.0/package/package.json not in flight; writing
+485 verbose afterAdd /Users/nicholascutting/.npm/minimatch/3.0.0/package/package.json written
+486 silly loadAllDepsIntoIdealTree Finishing
+487 silly idealTree:prePrune express-prototype@0.1.0
+487 silly idealTree:prePrune ├── abbrev@1.0.7
+487 silly idealTree:prePrune ├── accepts@1.2.13
+487 silly idealTree:prePrune ├── ansi-regex@2.0.0
+487 silly idealTree:prePrune ├── ansi-styles@2.1.0
+487 silly idealTree:prePrune ├── ansi@0.3.0
+487 silly idealTree:prePrune ├─┬ are-we-there-yet@1.0.4
+487 silly idealTree:prePrune │ └── readable-stream@1.1.13
+487 silly idealTree:prePrune ├─┬ argparse@0.1.16
+487 silly idealTree:prePrune │ └── underscore.string@2.4.0
+487 silly idealTree:prePrune ├── array-flatten@1.1.1
+487 silly idealTree:prePrune ├── array-index@0.1.1
+487 silly idealTree:prePrune ├── asn1@0.1.11
+487 silly idealTree:prePrune ├── assert-plus@0.1.5
+487 silly idealTree:prePrune ├── async-foreach@0.1.3
+487 silly idealTree:prePrune ├── async@0.1.22
+487 silly idealTree:prePrune ├── aws-sign2@0.6.0
+487 silly idealTree:prePrune ├── balanced-match@0.2.1
+487 silly idealTree:prePrune ├── basic-auth-connect@1.0.0
+487 silly idealTree:prePrune ├── bl@1.0.0
+487 silly idealTree:prePrune ├── block-stream@0.0.8
+487 silly idealTree:prePrune ├── bluebird@2.10.2
+487 silly idealTree:prePrune ├─┬ body-parser@1.14.1
+487 silly idealTree:prePrune │ ├── depd@1.1.0
+487 silly idealTree:prePrune │ ├── iconv-lite@0.4.12
+487 silly idealTree:prePrune │ └── qs@5.1.0
+487 silly idealTree:prePrune ├── boom@2.10.1
+487 silly idealTree:prePrune ├── brace-expansion@1.1.1
+487 silly idealTree:prePrune ├── builtin-modules@1.1.0
+487 silly idealTree:prePrune ├── bytes@2.1.0
+487 silly idealTree:prePrune ├── camelcase-keys@1.0.0
+487 silly idealTree:prePrune ├── camelcase@1.2.1
+487 silly idealTree:prePrune ├── caseless@0.11.0
+487 silly idealTree:prePrune ├── chalk@1.1.1
+487 silly idealTree:prePrune ├── cliui@3.0.3
+487 silly idealTree:prePrune ├── code-point-at@1.0.0
+487 silly idealTree:prePrune ├── coffee-script@1.3.3
+487 silly idealTree:prePrune ├── colors@0.6.2
+487 silly idealTree:prePrune ├── combined-stream@1.0.5
+487 silly idealTree:prePrune ├── commander@2.9.0
+487 silly idealTree:prePrune ├── concat-map@0.0.1
+487 silly idealTree:prePrune ├── concat-stream@1.5.1
+487 silly idealTree:prePrune ├── config-chain@1.1.9
+487 silly idealTree:prePrune ├─┬ configstore@0.3.2
+487 silly idealTree:prePrune │ ├── argparse@1.0.3
+487 silly idealTree:prePrune │ ├── esprima@2.7.0
+487 silly idealTree:prePrune │ ├── graceful-fs@3.0.8
+487 silly idealTree:prePrune │ ├── js-yaml@3.4.3
+487 silly idealTree:prePrune │ ├── lodash@3.10.1
+487 silly idealTree:prePrune │ └── mkdirp@0.5.1
+487 silly idealTree:prePrune ├── consolidate@0.13.1
+487 silly idealTree:prePrune ├── content-disposition@0.5.0
+487 silly idealTree:prePrune ├── content-type@1.0.1
+487 silly idealTree:prePrune ├── cookie-signature@1.0.6
+487 silly idealTree:prePrune ├── cookie@0.1.3
+487 silly idealTree:prePrune ├── core-util-is@1.0.1
+487 silly idealTree:prePrune ├─┬ cross-spawn-async@2.0.0
+487 silly idealTree:prePrune │ └── which@1.2.0
+487 silly idealTree:prePrune ├── cross-spawn@2.0.0
+487 silly idealTree:prePrune ├── cryptiles@2.0.5
+487 silly idealTree:prePrune ├── ctype@0.5.3
+487 silly idealTree:prePrune ├── dateformat@1.0.2-1.2.3
+487 silly idealTree:prePrune ├── debug@2.2.0
+487 silly idealTree:prePrune ├── decamelize@1.1.1
+487 silly idealTree:prePrune ├── deep-extend@0.2.11
+487 silly idealTree:prePrune ├── delayed-stream@1.0.0
+487 silly idealTree:prePrune ├── delegates@0.1.0
+487 silly idealTree:prePrune ├── depd@1.0.1
+487 silly idealTree:prePrune ├── destroy@1.0.3
+487 silly idealTree:prePrune ├── duplexify@3.4.2
+487 silly idealTree:prePrune ├── each-async@1.1.1
+487 silly idealTree:prePrune ├── ee-first@1.1.1
+487 silly idealTree:prePrune ├── end-of-stream@1.0.0
+487 silly idealTree:prePrune ├── error-ex@1.2.0
+487 silly idealTree:prePrune ├── escape-html@1.0.2
+487 silly idealTree:prePrune ├── escape-string-regexp@1.0.3
+487 silly idealTree:prePrune ├── esprima@1.0.4
+487 silly idealTree:prePrune ├── etag@1.7.0
+487 silly idealTree:prePrune ├── event-stream@0.5.3
+487 silly idealTree:prePrune ├── eventemitter2@0.4.14
+487 silly idealTree:prePrune ├── exit@0.1.2
+487 silly idealTree:prePrune ├── express-writer@0.0.4
+487 silly idealTree:prePrune ├── express@4.13.3
+487 silly idealTree:prePrune ├── extend@3.0.0
+487 silly idealTree:prePrune ├── faye-websocket@0.4.4
+487 silly idealTree:prePrune ├── finalhandler@0.4.0
+487 silly idealTree:prePrune ├── find-up@1.0.0
+487 silly idealTree:prePrune ├─┬ findup-sync@0.1.3
+487 silly idealTree:prePrune │ ├── glob@3.2.11
+487 silly idealTree:prePrune │ ├── lodash@2.4.2
+487 silly idealTree:prePrune │ └── minimatch@0.3.0
+487 silly idealTree:prePrune ├── forever-agent@0.6.1
+487 silly idealTree:prePrune ├─┬ form-data@1.0.0-rc3
+487 silly idealTree:prePrune │ └── async@1.5.0
+487 silly idealTree:prePrune ├── forwarded@0.1.0
+487 silly idealTree:prePrune ├── fresh@0.3.0
+487 silly idealTree:prePrune ├─┬ fstream@1.0.8
+487 silly idealTree:prePrune │ ├── graceful-fs@4.1.2
+487 silly idealTree:prePrune │ └── mkdirp@0.5.1
+487 silly idealTree:prePrune ├── gauge@1.2.2
+487 silly idealTree:prePrune ├── gaze@0.4.3
+487 silly idealTree:prePrune ├── generate-function@2.0.0
+487 silly idealTree:prePrune ├── generate-object-property@1.2.0
+487 silly idealTree:prePrune ├── get-stdin@4.0.1
+487 silly idealTree:prePrune ├── getobject@0.1.0
+487 silly idealTree:prePrune ├─┬ glob@3.1.21
+487 silly idealTree:prePrune │ └── inherits@1.0.2
+487 silly idealTree:prePrune ├─┬ globule@0.1.0
+487 silly idealTree:prePrune │ └── lodash@1.0.2
+487 silly idealTree:prePrune ├─┬ got@3.3.1
+487 silly idealTree:prePrune │ └── object-assign@3.0.0
+487 silly idealTree:prePrune ├── govuk_frontend_toolkit@4.3.0
+487 silly idealTree:prePrune ├── govuk_template_mustache@0.15.1
+487 silly idealTree:prePrune ├── graceful-fs@1.2.3
+487 silly idealTree:prePrune ├── graceful-readlink@1.0.1
+487 silly idealTree:prePrune ├── grunt-cli@0.1.13
+487 silly idealTree:prePrune ├─┬ grunt-concurrent@0.4.3
+487 silly idealTree:prePrune │ └── async@0.2.10
+487 silly idealTree:prePrune ├── grunt-contrib-clean@0.5.0
+487 silly idealTree:prePrune ├── grunt-contrib-copy@0.5.0
+487 silly idealTree:prePrune ├── grunt-contrib-watch@0.5.3
+487 silly idealTree:prePrune ├─┬ grunt-legacy-log-utils@0.1.1
+487 silly idealTree:prePrune │ ├── lodash@2.4.2
+487 silly idealTree:prePrune │ └── underscore.string@2.3.3
+487 silly idealTree:prePrune ├─┬ grunt-legacy-log@0.1.2
+487 silly idealTree:prePrune │ ├── lodash@2.4.2
+487 silly idealTree:prePrune │ └── underscore.string@2.3.3
+487 silly idealTree:prePrune ├── grunt-legacy-util@0.2.0
+487 silly idealTree:prePrune ├── grunt-nodemon@0.4.0
+487 silly idealTree:prePrune ├─┬ grunt-sass@1.1.0-beta
+487 silly idealTree:prePrune │ ├── gaze@0.5.2
+487 silly idealTree:prePrune │ ├── glob@5.0.15
+487 silly idealTree:prePrune │ ├── minimatch@3.0.0
+487 silly idealTree:prePrune │ ├── mkdirp@0.5.1
+487 silly idealTree:prePrune │ └── node-sass@3.4.1
+487 silly idealTree:prePrune ├── grunt-text-replace@0.3.12
+487 silly idealTree:prePrune ├── grunt@0.4.5
+487 silly idealTree:prePrune ├── har-validator@2.0.2
+487 silly idealTree:prePrune ├── has-ansi@2.0.0
+487 silly idealTree:prePrune ├── has-unicode@1.0.1
+487 silly idealTree:prePrune ├── hawk@3.1.0
+487 silly idealTree:prePrune ├── hoek@2.16.3
+487 silly idealTree:prePrune ├─┬ hogan.js@3.0.2
+487 silly idealTree:prePrune │ └── mkdirp@0.3.0
+487 silly idealTree:prePrune ├── hooker@0.2.3
+487 silly idealTree:prePrune ├── hosted-git-info@2.1.4
+487 silly idealTree:prePrune ├── http-errors@1.3.1
+487 silly idealTree:prePrune ├── http-signature@0.11.0
+487 silly idealTree:prePrune ├── iconv-lite@0.2.11
+487 silly idealTree:prePrune ├── indent-string@2.1.0
+487 silly idealTree:prePrune ├── infinity-agent@2.0.3
+487 silly idealTree:prePrune ├── inflight@1.0.4
+487 silly idealTree:prePrune ├── inherits@2.0.1
+487 silly idealTree:prePrune ├── ini@1.3.4
+487 silly idealTree:prePrune ├── invert-kv@1.0.0
+487 silly idealTree:prePrune ├── ipaddr.js@1.0.1
+487 silly idealTree:prePrune ├── is-absolute@0.1.7
+487 silly idealTree:prePrune ├── is-builtin-module@1.0.0
+487 silly idealTree:prePrune ├── is-finite@1.0.1
+487 silly idealTree:prePrune ├── is-fullwidth-code-point@1.0.0
+487 silly idealTree:prePrune ├── is-my-json-valid@2.12.2
+487 silly idealTree:prePrune ├── is-npm@1.0.0
+487 silly idealTree:prePrune ├── is-property@1.0.2
+487 silly idealTree:prePrune ├── is-redirect@1.0.0
+487 silly idealTree:prePrune ├── is-relative@0.1.3
+487 silly idealTree:prePrune ├── is-stream@1.0.1
+487 silly idealTree:prePrune ├── is-utf8@0.2.0
+487 silly idealTree:prePrune ├── isarray@0.0.1
+487 silly idealTree:prePrune ├── isstream@0.1.2
+487 silly idealTree:prePrune ├── js-yaml@2.0.5
+487 silly idealTree:prePrune ├── json-stringify-safe@5.0.1
+487 silly idealTree:prePrune ├── jsonpointer@2.0.0
+487 silly idealTree:prePrune ├── latest-version@1.0.1
+487 silly idealTree:prePrune ├── lcid@1.0.0
+487 silly idealTree:prePrune ├─┬ load-json-file@1.0.1
+487 silly idealTree:prePrune │ └── graceful-fs@4.1.2
+487 silly idealTree:prePrune ├── lodash._basetostring@3.0.1
+487 silly idealTree:prePrune ├── lodash._createpadding@3.6.1
+487 silly idealTree:prePrune ├── lodash.pad@3.1.1
+487 silly idealTree:prePrune ├── lodash.padleft@3.1.1
+487 silly idealTree:prePrune ├── lodash.padright@3.1.1
+487 silly idealTree:prePrune ├── lodash.repeat@3.0.1
+487 silly idealTree:prePrune ├── lodash@0.9.2
+487 silly idealTree:prePrune ├── loud-rejection@1.0.0
+487 silly idealTree:prePrune ├── lowercase-keys@1.0.0
+487 silly idealTree:prePrune ├── lpad@0.1.0
+487 silly idealTree:prePrune ├── lru-cache@2.7.0
+487 silly idealTree:prePrune ├── map-obj@1.0.1
+487 silly idealTree:prePrune ├── media-typer@0.3.0
+487 silly idealTree:prePrune ├─┬ meow@3.5.0
+487 silly idealTree:prePrune │ ├── minimist@1.2.0
+487 silly idealTree:prePrune │ └── object-assign@4.0.1
+487 silly idealTree:prePrune ├── merge-descriptors@1.0.0
+487 silly idealTree:prePrune ├── methods@1.1.1
+487 silly idealTree:prePrune ├── mime-db@1.19.0
+487 silly idealTree:prePrune ├── mime-types@2.1.7
+487 silly idealTree:prePrune ├── mime@1.3.4
+487 silly idealTree:prePrune ├── minimatch@0.2.14
+487 silly idealTree:prePrune ├── minimist@0.0.8
+487 silly idealTree:prePrune ├── mkdirp@0.3.5
+487 silly idealTree:prePrune ├── ms@0.7.1
+487 silly idealTree:prePrune ├── nan@2.1.0
+487 silly idealTree:prePrune ├── negotiator@0.5.3
+487 silly idealTree:prePrune ├── nested-error-stacks@1.0.1
+487 silly idealTree:prePrune ├─┬ node-gyp@3.0.3
+487 silly idealTree:prePrune │ ├── graceful-fs@4.1.2
+487 silly idealTree:prePrune │ ├── minimatch@1.0.0
+487 silly idealTree:prePrune │ ├── mkdirp@0.5.1
+487 silly idealTree:prePrune │ └── nopt@3.0.4
+487 silly idealTree:prePrune ├─┬ node-sass@3.3.3
+487 silly idealTree:prePrune │ ├── gaze@0.5.2
+487 silly idealTree:prePrune │ ├── glob@5.0.15
+487 silly idealTree:prePrune │ ├── minimatch@3.0.0
+487 silly idealTree:prePrune │ └── mkdirp@0.5.1
+487 silly idealTree:prePrune ├── node-uuid@1.4.3
+487 silly idealTree:prePrune ├─┬ nodemon@1.3.8
+487 silly idealTree:prePrune │ └── minimatch@0.3.0
+487 silly idealTree:prePrune ├── nopt@1.0.10
+487 silly idealTree:prePrune ├─┬ noptify@0.0.3
+487 silly idealTree:prePrune │ └── nopt@2.0.0
+487 silly idealTree:prePrune ├── normalize-package-data@2.3.4
+487 silly idealTree:prePrune ├─┬ npmconf@2.1.2
+487 silly idealTree:prePrune │ ├── mkdirp@0.5.1
+487 silly idealTree:prePrune │ └── nopt@3.0.4
+487 silly idealTree:prePrune ├── npmlog@1.2.1
+487 silly idealTree:prePrune ├── number-is-nan@1.0.0
+487 silly idealTree:prePrune ├── oauth-sign@0.8.0
+487 silly idealTree:prePrune ├── object-assign@2.1.1
+487 silly idealTree:prePrune ├── on-finished@2.3.0
+487 silly idealTree:prePrune ├── once@1.3.2
+487 silly idealTree:prePrune ├── onetime@1.0.0
+487 silly idealTree:prePrune ├── optimist@0.2.8
+487 silly idealTree:prePrune ├── os-homedir@1.0.1
+487 silly idealTree:prePrune ├── os-locale@1.4.0
+487 silly idealTree:prePrune ├── os-shim@0.1.3
+487 silly idealTree:prePrune ├── os-tmpdir@1.0.1
+487 silly idealTree:prePrune ├── osenv@0.1.3
+487 silly idealTree:prePrune ├── package-json@1.2.0
+487 silly idealTree:prePrune ├── parse-json@2.2.0
+487 silly idealTree:prePrune ├── parseurl@1.3.0
+487 silly idealTree:prePrune ├── path-array@1.0.0
+487 silly idealTree:prePrune ├── path-exists@2.0.0
+487 silly idealTree:prePrune ├── path-is-absolute@1.0.0
+487 silly idealTree:prePrune ├── path-to-regexp@0.1.7
+487 silly idealTree:prePrune ├─┬ path-type@1.0.0
+487 silly idealTree:prePrune │ └── graceful-fs@4.1.2
+487 silly idealTree:prePrune ├── pify@2.3.0
+487 silly idealTree:prePrune ├── pinkie-promise@1.0.0
+487 silly idealTree:prePrune ├── pinkie@1.0.0
+487 silly idealTree:prePrune ├── prepend-http@1.0.3
+487 silly idealTree:prePrune ├── process-nextick-args@1.0.3
+487 silly idealTree:prePrune ├── proto-list@1.2.4
+487 silly idealTree:prePrune ├── proxy-addr@1.0.8
+487 silly idealTree:prePrune ├── ps-tree@0.0.3
+487 silly idealTree:prePrune ├── qs@4.0.0
+487 silly idealTree:prePrune ├── range-parser@1.0.3
+487 silly idealTree:prePrune ├─┬ raw-body@2.1.4
+487 silly idealTree:prePrune │ └── iconv-lite@0.4.12
+487 silly idealTree:prePrune ├─┬ rc@1.1.2
+487 silly idealTree:prePrune │ └── minimist@1.2.0
+487 silly idealTree:prePrune ├── read-all-stream@3.0.1
+487 silly idealTree:prePrune ├── read-pkg-up@1.0.1
+487 silly idealTree:prePrune ├── read-pkg@1.1.0
+487 silly idealTree:prePrune ├── readable-stream@2.0.4
+487 silly idealTree:prePrune ├── readdir@0.0.6
+487 silly idealTree:prePrune ├── redent@1.0.0
+487 silly idealTree:prePrune ├── registry-url@3.0.3
+487 silly idealTree:prePrune ├── repeating@2.0.0
+487 silly idealTree:prePrune ├─┬ request@2.65.0
+487 silly idealTree:prePrune │ └── qs@5.2.0
+487 silly idealTree:prePrune ├── resolve@0.3.1
+487 silly idealTree:prePrune ├── rimraf@2.2.8
+487 silly idealTree:prePrune ├─┬ sass-graph@2.0.1
+487 silly idealTree:prePrune │ ├── glob@5.0.15
+487 silly idealTree:prePrune │ ├── lodash@3.10.1
+487 silly idealTree:prePrune │ └── minimatch@3.0.0
+487 silly idealTree:prePrune ├── semver-diff@2.0.0
+487 silly idealTree:prePrune ├── semver@4.3.6
+487 silly idealTree:prePrune ├── send@0.13.0
+487 silly idealTree:prePrune ├── serve-favicon@2.3.0
+487 silly idealTree:prePrune ├── serve-static@1.10.0
+487 silly idealTree:prePrune ├── set-immediate-shim@1.0.1
+487 silly idealTree:prePrune ├── sigmund@1.0.1
+487 silly idealTree:prePrune ├── sntp@1.0.9
+487 silly idealTree:prePrune ├── spawn-sync@1.0.14
+487 silly idealTree:prePrune ├── spdx-correct@1.0.2
+487 silly idealTree:prePrune ├── spdx-exceptions@1.0.3
+487 silly idealTree:prePrune ├── spdx-expression-parse@1.0.0
+487 silly idealTree:prePrune ├── spdx-license-ids@1.1.0
+487 silly idealTree:prePrune ├── sprintf-js@1.0.3
+487 silly idealTree:prePrune ├── statuses@1.2.1
+487 silly idealTree:prePrune ├── string_decoder@0.10.31
+487 silly idealTree:prePrune ├── string-length@1.0.1
+487 silly idealTree:prePrune ├── string-width@1.0.1
+487 silly idealTree:prePrune ├── stringstream@0.0.5
+487 silly idealTree:prePrune ├── strip-ansi@3.0.0
+487 silly idealTree:prePrune ├── strip-bom@2.0.0
+487 silly idealTree:prePrune ├── strip-indent@1.0.1
+487 silly idealTree:prePrune ├── strip-json-comments@0.1.3
+487 silly idealTree:prePrune ├── supports-color@2.0.0
+487 silly idealTree:prePrune ├── tar@1.0.3
+487 silly idealTree:prePrune ├── timed-out@2.0.0
+487 silly idealTree:prePrune ├─┬ tiny-lr@0.0.4
+487 silly idealTree:prePrune │ ├── debug@0.7.4
+487 silly idealTree:prePrune │ └── qs@0.5.6
+487 silly idealTree:prePrune ├── touch@0.0.4
+487 silly idealTree:prePrune ├── tough-cookie@2.2.0
+487 silly idealTree:prePrune ├── trim-newlines@1.0.0
+487 silly idealTree:prePrune ├── tunnel-agent@0.4.1
+487 silly idealTree:prePrune ├── type-is@1.6.9
+487 silly idealTree:prePrune ├── typedarray@0.0.6
+487 silly idealTree:prePrune ├── uid-number@0.0.5
+487 silly idealTree:prePrune ├── underscore.string@2.2.1
+487 silly idealTree:prePrune ├── underscore@1.7.0
+487 silly idealTree:prePrune ├── unpipe@1.0.0
+487 silly idealTree:prePrune ├── update-notifier@0.3.2
+487 silly idealTree:prePrune ├── user-home@1.1.1
+487 silly idealTree:prePrune ├── util-deprecate@1.0.2
+487 silly idealTree:prePrune ├── utils-merge@1.0.0
+487 silly idealTree:prePrune ├── uuid@2.0.1
+487 silly idealTree:prePrune ├── validate-npm-package-license@3.0.1
+487 silly idealTree:prePrune ├── vary@1.0.1
+487 silly idealTree:prePrune ├── which@1.0.9
+487 silly idealTree:prePrune ├── window-size@0.1.2
+487 silly idealTree:prePrune ├── wordwrap@0.0.3
+487 silly idealTree:prePrune ├── wrap-ansi@1.0.0
+487 silly idealTree:prePrune ├── wrappy@1.0.1
+487 silly idealTree:prePrune ├── xdg-basedir@1.0.1
+487 silly idealTree:prePrune ├── xtend@4.0.0
+487 silly idealTree:prePrune ├── y18n@3.2.0
+487 silly idealTree:prePrune └── yargs@3.29.0
+488 silly loadIdealTree Finishing
+489 silly currentTree express-prototype@0.1.0
+489 silly currentTree ├── abbrev@1.0.7
+489 silly currentTree ├── accepts@1.2.13
+489 silly currentTree ├── ansi-regex@2.0.0
+489 silly currentTree ├── ansi-styles@2.1.0
+489 silly currentTree ├── ansi@0.3.0
+489 silly currentTree ├─┬ are-we-there-yet@1.0.4
+489 silly currentTree │ └── readable-stream@1.1.13
+489 silly currentTree ├─┬ argparse@0.1.16
+489 silly currentTree │ └── underscore.string@2.4.0
+489 silly currentTree ├── array-flatten@1.1.1
+489 silly currentTree ├── array-index@0.1.1
+489 silly currentTree ├── asn1@0.1.11
+489 silly currentTree ├── assert-plus@0.1.5
+489 silly currentTree ├── async-foreach@0.1.3
+489 silly currentTree ├── async@0.1.22
+489 silly currentTree ├── aws-sign2@0.6.0
+489 silly currentTree ├── balanced-match@0.2.1
+489 silly currentTree ├── basic-auth-connect@1.0.0
+489 silly currentTree ├── bl@1.0.0
+489 silly currentTree ├── block-stream@0.0.8
+489 silly currentTree ├── bluebird@2.10.2
+489 silly currentTree ├─┬ body-parser@1.14.1
+489 silly currentTree │ ├── depd@1.1.0
+489 silly currentTree │ ├── iconv-lite@0.4.12
+489 silly currentTree │ └── qs@5.1.0
+489 silly currentTree ├── boom@2.10.1
+489 silly currentTree ├── brace-expansion@1.1.1
+489 silly currentTree ├── builtin-modules@1.1.0
+489 silly currentTree ├── bytes@2.1.0
+489 silly currentTree ├── camelcase-keys@1.0.0
+489 silly currentTree ├── camelcase@1.2.1
+489 silly currentTree ├── caseless@0.11.0
+489 silly currentTree ├── chalk@1.1.1
+489 silly currentTree ├── cliui@3.0.3
+489 silly currentTree ├── code-point-at@1.0.0
+489 silly currentTree ├── coffee-script@1.3.3
+489 silly currentTree ├── colors@0.6.2
+489 silly currentTree ├── combined-stream@1.0.5
+489 silly currentTree ├── commander@2.9.0
+489 silly currentTree ├── concat-map@0.0.1
+489 silly currentTree ├── concat-stream@1.5.1
+489 silly currentTree ├── config-chain@1.1.9
+489 silly currentTree ├─┬ configstore@0.3.2
+489 silly currentTree │ ├── argparse@1.0.3
+489 silly currentTree │ ├── esprima@2.7.0
+489 silly currentTree │ ├── graceful-fs@3.0.8
+489 silly currentTree │ ├── js-yaml@3.4.3
+489 silly currentTree │ ├── lodash@3.10.1
+489 silly currentTree │ └── mkdirp@0.5.1
+489 silly currentTree ├── consolidate@0.13.1
+489 silly currentTree ├── content-disposition@0.5.0
+489 silly currentTree ├── content-type@1.0.1
+489 silly currentTree ├── cookie-signature@1.0.6
+489 silly currentTree ├── cookie@0.1.3
+489 silly currentTree ├── core-util-is@1.0.1
+489 silly currentTree ├─┬ cross-spawn-async@2.0.0
+489 silly currentTree │ └── which@1.2.0
+489 silly currentTree ├── cross-spawn@2.0.0
+489 silly currentTree ├── cryptiles@2.0.5
+489 silly currentTree ├── ctype@0.5.3
+489 silly currentTree ├── dateformat@1.0.2-1.2.3
+489 silly currentTree ├── debug@2.2.0
+489 silly currentTree ├── decamelize@1.1.1
+489 silly currentTree ├── deep-extend@0.2.11
+489 silly currentTree ├── delayed-stream@1.0.0
+489 silly currentTree ├── delegates@0.1.0
+489 silly currentTree ├── depd@1.0.1
+489 silly currentTree ├── destroy@1.0.3
+489 silly currentTree ├── duplexify@3.4.2
+489 silly currentTree ├── each-async@1.1.1
+489 silly currentTree ├── ee-first@1.1.1
+489 silly currentTree ├── end-of-stream@1.0.0
+489 silly currentTree ├── error-ex@1.2.0
+489 silly currentTree ├── escape-html@1.0.2
+489 silly currentTree ├── escape-string-regexp@1.0.3
+489 silly currentTree ├── esprima@1.0.4
+489 silly currentTree ├── etag@1.7.0
+489 silly currentTree ├── event-stream@0.5.3
+489 silly currentTree ├── eventemitter2@0.4.14
+489 silly currentTree ├── exit@0.1.2
+489 silly currentTree ├── express-writer@0.0.4
+489 silly currentTree ├── express@4.13.3
+489 silly currentTree ├── extend@3.0.0
+489 silly currentTree ├── faye-websocket@0.4.4
+489 silly currentTree ├── finalhandler@0.4.0
+489 silly currentTree ├── find-up@1.0.0
+489 silly currentTree ├─┬ findup-sync@0.1.3
+489 silly currentTree │ ├── glob@3.2.11
+489 silly currentTree │ ├── lodash@2.4.2
+489 silly currentTree │ └── minimatch@0.3.0
+489 silly currentTree ├── forever-agent@0.6.1
+489 silly currentTree ├─┬ form-data@1.0.0-rc3
+489 silly currentTree │ └── async@1.5.0
+489 silly currentTree ├── forwarded@0.1.0
+489 silly currentTree ├── fresh@0.3.0
+489 silly currentTree ├─┬ fstream@1.0.8
+489 silly currentTree │ ├── graceful-fs@4.1.2
+489 silly currentTree │ └── mkdirp@0.5.1
+489 silly currentTree ├── gauge@1.2.2
+489 silly currentTree ├── gaze@0.4.3
+489 silly currentTree ├── generate-function@2.0.0
+489 silly currentTree ├── generate-object-property@1.2.0
+489 silly currentTree ├── get-stdin@4.0.1
+489 silly currentTree ├── getobject@0.1.0
+489 silly currentTree ├─┬ glob@3.1.21
+489 silly currentTree │ └── inherits@1.0.2
+489 silly currentTree ├─┬ globule@0.1.0
+489 silly currentTree │ └── lodash@1.0.2
+489 silly currentTree ├─┬ got@3.3.1
+489 silly currentTree │ └── object-assign@3.0.0
+489 silly currentTree ├── govuk_frontend_toolkit@4.3.0
+489 silly currentTree ├── govuk_template_mustache@0.15.1
+489 silly currentTree ├── graceful-fs@1.2.3
+489 silly currentTree ├── graceful-readlink@1.0.1
+489 silly currentTree ├── grunt-cli@0.1.13
+489 silly currentTree ├─┬ grunt-concurrent@0.4.3
+489 silly currentTree │ └── async@0.2.10
+489 silly currentTree ├── grunt-contrib-clean@0.5.0
+489 silly currentTree ├── grunt-contrib-copy@0.5.0
+489 silly currentTree ├── grunt-contrib-watch@0.5.3
+489 silly currentTree ├─┬ grunt-legacy-log-utils@0.1.1
+489 silly currentTree │ ├── lodash@2.4.2
+489 silly currentTree │ └── underscore.string@2.3.3
+489 silly currentTree ├─┬ grunt-legacy-log@0.1.2
+489 silly currentTree │ ├── lodash@2.4.2
+489 silly currentTree │ └── underscore.string@2.3.3
+489 silly currentTree ├── grunt-legacy-util@0.2.0
+489 silly currentTree ├── grunt-nodemon@0.4.0
+489 silly currentTree ├─┬ grunt-sass@1.1.0-beta
+489 silly currentTree │ ├── gaze@0.5.2
+489 silly currentTree │ ├── glob@5.0.15
+489 silly currentTree │ ├── minimatch@3.0.0
+489 silly currentTree │ ├── mkdirp@0.5.1
+489 silly currentTree │ └── node-sass@3.4.1
+489 silly currentTree ├── grunt-text-replace@0.3.12
+489 silly currentTree ├── grunt@0.4.5
+489 silly currentTree ├── har-validator@2.0.2
+489 silly currentTree ├── has-ansi@2.0.0
+489 silly currentTree ├── has-unicode@1.0.1
+489 silly currentTree ├── hawk@3.1.0
+489 silly currentTree ├── hoek@2.16.3
+489 silly currentTree ├─┬ hogan.js@3.0.2
+489 silly currentTree │ └── mkdirp@0.3.0
+489 silly currentTree ├── hooker@0.2.3
+489 silly currentTree ├── hosted-git-info@2.1.4
+489 silly currentTree ├── http-errors@1.3.1
+489 silly currentTree ├── http-signature@0.11.0
+489 silly currentTree ├── iconv-lite@0.2.11
+489 silly currentTree ├── indent-string@2.1.0
+489 silly currentTree ├── infinity-agent@2.0.3
+489 silly currentTree ├── inflight@1.0.4
+489 silly currentTree ├── inherits@2.0.1
+489 silly currentTree ├── ini@1.3.4
+489 silly currentTree ├── invert-kv@1.0.0
+489 silly currentTree ├── ipaddr.js@1.0.1
+489 silly currentTree ├── is-absolute@0.1.7
+489 silly currentTree ├── is-builtin-module@1.0.0
+489 silly currentTree ├── is-finite@1.0.1
+489 silly currentTree ├── is-fullwidth-code-point@1.0.0
+489 silly currentTree ├── is-my-json-valid@2.12.2
+489 silly currentTree ├── is-npm@1.0.0
+489 silly currentTree ├── is-property@1.0.2
+489 silly currentTree ├── is-redirect@1.0.0
+489 silly currentTree ├── is-relative@0.1.3
+489 silly currentTree ├── is-stream@1.0.1
+489 silly currentTree ├── is-utf8@0.2.0
+489 silly currentTree ├── isarray@0.0.1
+489 silly currentTree ├── isstream@0.1.2
+489 silly currentTree ├── js-yaml@2.0.5
+489 silly currentTree ├── json-stringify-safe@5.0.1
+489 silly currentTree ├── jsonpointer@2.0.0
+489 silly currentTree ├── latest-version@1.0.1
+489 silly currentTree ├── lcid@1.0.0
+489 silly currentTree ├─┬ load-json-file@1.0.1
+489 silly currentTree │ └── graceful-fs@4.1.2
+489 silly currentTree ├── lodash._basetostring@3.0.1
+489 silly currentTree ├── lodash._createpadding@3.6.1
+489 silly currentTree ├── lodash.pad@3.1.1
+489 silly currentTree ├── lodash.padleft@3.1.1
+489 silly currentTree ├── lodash.padright@3.1.1
+489 silly currentTree ├── lodash.repeat@3.0.1
+489 silly currentTree ├── lodash@0.9.2
+489 silly currentTree ├── loud-rejection@1.0.0
+489 silly currentTree ├── lowercase-keys@1.0.0
+489 silly currentTree ├── lpad@0.1.0
+489 silly currentTree ├── lru-cache@2.7.0
+489 silly currentTree ├── map-obj@1.0.1
+489 silly currentTree ├── media-typer@0.3.0
+489 silly currentTree ├─┬ meow@3.5.0
+489 silly currentTree │ ├── minimist@1.2.0
+489 silly currentTree │ └── object-assign@4.0.1
+489 silly currentTree ├── merge-descriptors@1.0.0
+489 silly currentTree ├── methods@1.1.1
+489 silly currentTree ├── mime-db@1.19.0
+489 silly currentTree ├── mime-types@2.1.7
+489 silly currentTree ├── mime@1.3.4
+489 silly currentTree ├── minimatch@0.2.14
+489 silly currentTree ├── minimist@0.0.8
+489 silly currentTree ├── mkdirp@0.3.5
+489 silly currentTree ├── ms@0.7.1
+489 silly currentTree ├── nan@2.1.0
+489 silly currentTree ├── negotiator@0.5.3
+489 silly currentTree ├── nested-error-stacks@1.0.1
+489 silly currentTree ├─┬ node-gyp@3.0.3
+489 silly currentTree │ ├── graceful-fs@4.1.2
+489 silly currentTree │ ├── minimatch@1.0.0
+489 silly currentTree │ ├── mkdirp@0.5.1
+489 silly currentTree │ └── nopt@3.0.4
+489 silly currentTree ├── node-uuid@1.4.3
+489 silly currentTree ├─┬ nodemon@1.3.8
+489 silly currentTree │ └── minimatch@0.3.0
+489 silly currentTree ├── nopt@1.0.10
+489 silly currentTree ├─┬ noptify@0.0.3
+489 silly currentTree │ └── nopt@2.0.0
+489 silly currentTree ├── normalize-package-data@2.3.4
+489 silly currentTree ├─┬ npmconf@2.1.2
+489 silly currentTree │ ├── mkdirp@0.5.1
+489 silly currentTree │ └── nopt@3.0.4
+489 silly currentTree ├── npmlog@1.2.1
+489 silly currentTree ├── number-is-nan@1.0.0
+489 silly currentTree ├── oauth-sign@0.8.0
+489 silly currentTree ├── object-assign@2.1.1
+489 silly currentTree ├── on-finished@2.3.0
+489 silly currentTree ├── once@1.3.2
+489 silly currentTree ├── onetime@1.0.0
+489 silly currentTree ├── optimist@0.2.8
+489 silly currentTree ├── os-homedir@1.0.1
+489 silly currentTree ├── os-locale@1.4.0
+489 silly currentTree ├── os-shim@0.1.3
+489 silly currentTree ├── os-tmpdir@1.0.1
+489 silly currentTree ├── osenv@0.1.3
+489 silly currentTree ├── package-json@1.2.0
+489 silly currentTree ├── parse-json@2.2.0
+489 silly currentTree ├── parseurl@1.3.0
+489 silly currentTree ├── path-array@1.0.0
+489 silly currentTree ├── path-exists@2.0.0
+489 silly currentTree ├── path-is-absolute@1.0.0
+489 silly currentTree ├── path-to-regexp@0.1.7
+489 silly currentTree ├─┬ path-type@1.0.0
+489 silly currentTree │ └── graceful-fs@4.1.2
+489 silly currentTree ├── pify@2.3.0
+489 silly currentTree ├── pinkie-promise@1.0.0
+489 silly currentTree ├── pinkie@1.0.0
+489 silly currentTree ├── prepend-http@1.0.3
+489 silly currentTree ├── process-nextick-args@1.0.3
+489 silly currentTree ├── proto-list@1.2.4
+489 silly currentTree ├── proxy-addr@1.0.8
+489 silly currentTree ├── ps-tree@0.0.3
+489 silly currentTree ├── qs@4.0.0
+489 silly currentTree ├── range-parser@1.0.3
+489 silly currentTree ├─┬ raw-body@2.1.4
+489 silly currentTree │ └── iconv-lite@0.4.12
+489 silly currentTree ├─┬ rc@1.1.2
+489 silly currentTree │ └── minimist@1.2.0
+489 silly currentTree ├── read-all-stream@3.0.1
+489 silly currentTree ├── read-pkg-up@1.0.1
+489 silly currentTree ├── read-pkg@1.1.0
+489 silly currentTree ├── readable-stream@2.0.4
+489 silly currentTree ├── readdir@0.0.6
+489 silly currentTree ├── redent@1.0.0
+489 silly currentTree ├── registry-url@3.0.3
+489 silly currentTree ├── repeating@2.0.0
+489 silly currentTree ├─┬ request@2.65.0
+489 silly currentTree │ └── qs@5.2.0
+489 silly currentTree ├── resolve@0.3.1
+489 silly currentTree ├── rimraf@2.2.8
+489 silly currentTree ├─┬ sass-graph@2.0.1
+489 silly currentTree │ ├── glob@5.0.15
+489 silly currentTree │ ├── lodash@3.10.1
+489 silly currentTree │ └── minimatch@3.0.0
+489 silly currentTree ├── semver-diff@2.0.0
+489 silly currentTree ├── semver@4.3.6
+489 silly currentTree ├── send@0.13.0
+489 silly currentTree ├── serve-favicon@2.3.0
+489 silly currentTree ├── serve-static@1.10.0
+489 silly currentTree ├── set-immediate-shim@1.0.1
+489 silly currentTree ├── sigmund@1.0.1
+489 silly currentTree ├── sntp@1.0.9
+489 silly currentTree ├── spawn-sync@1.0.14
+489 silly currentTree ├── spdx-correct@1.0.2
+489 silly currentTree ├── spdx-exceptions@1.0.3
+489 silly currentTree ├── spdx-expression-parse@1.0.0
+489 silly currentTree ├── spdx-license-ids@1.1.0
+489 silly currentTree ├── sprintf-js@1.0.3
+489 silly currentTree ├── statuses@1.2.1
+489 silly currentTree ├── string_decoder@0.10.31
+489 silly currentTree ├── string-length@1.0.1
+489 silly currentTree ├── string-width@1.0.1
+489 silly currentTree ├── stringstream@0.0.5
+489 silly currentTree ├── strip-ansi@3.0.0
+489 silly currentTree ├── strip-bom@2.0.0
+489 silly currentTree ├── strip-indent@1.0.1
+489 silly currentTree ├── strip-json-comments@0.1.3
+489 silly currentTree ├── supports-color@2.0.0
+489 silly currentTree ├── tar@1.0.3
+489 silly currentTree ├── timed-out@2.0.0
+489 silly currentTree ├─┬ tiny-lr@0.0.4
+489 silly currentTree │ ├── debug@0.7.4
+489 silly currentTree │ └── qs@0.5.6
+489 silly currentTree ├── touch@0.0.4
+489 silly currentTree ├── tough-cookie@2.2.0
+489 silly currentTree ├── trim-newlines@1.0.0
+489 silly currentTree ├── tunnel-agent@0.4.1
+489 silly currentTree ├── type-is@1.6.9
+489 silly currentTree ├── typedarray@0.0.6
+489 silly currentTree ├── uid-number@0.0.5
+489 silly currentTree ├── underscore.string@2.2.1
+489 silly currentTree ├── underscore@1.7.0
+489 silly currentTree ├── unpipe@1.0.0
+489 silly currentTree ├── update-notifier@0.3.2
+489 silly currentTree ├── user-home@1.1.1
+489 silly currentTree ├── util-deprecate@1.0.2
+489 silly currentTree ├── utils-merge@1.0.0
+489 silly currentTree ├── uuid@2.0.1
+489 silly currentTree ├── validate-npm-package-license@3.0.1
+489 silly currentTree ├── vary@1.0.1
+489 silly currentTree ├── which@1.0.9
+489 silly currentTree ├── window-size@0.1.2
+489 silly currentTree ├── wordwrap@0.0.3
+489 silly currentTree ├── wrap-ansi@1.0.0
+489 silly currentTree ├── wrappy@1.0.1
+489 silly currentTree ├── xdg-basedir@1.0.1
+489 silly currentTree ├── xtend@4.0.0
+489 silly currentTree ├── y18n@3.2.0
+489 silly currentTree └── yargs@3.29.0
+490 silly idealTree express-prototype@0.1.0
+490 silly idealTree ├── abbrev@1.0.7
+490 silly idealTree ├── accepts@1.2.13
+490 silly idealTree ├── ansi-regex@2.0.0
+490 silly idealTree ├── ansi-styles@2.1.0
+490 silly idealTree ├── ansi@0.3.0
+490 silly idealTree ├─┬ are-we-there-yet@1.0.4
+490 silly idealTree │ └── readable-stream@1.1.13
+490 silly idealTree ├─┬ argparse@0.1.16
+490 silly idealTree │ └── underscore.string@2.4.0
+490 silly idealTree ├── array-flatten@1.1.1
+490 silly idealTree ├── array-index@0.1.1
+490 silly idealTree ├── asn1@0.1.11
+490 silly idealTree ├── assert-plus@0.1.5
+490 silly idealTree ├── async-foreach@0.1.3
+490 silly idealTree ├── async@0.1.22
+490 silly idealTree ├── aws-sign2@0.6.0
+490 silly idealTree ├── balanced-match@0.2.1
+490 silly idealTree ├── basic-auth-connect@1.0.0
+490 silly idealTree ├── bl@1.0.0
+490 silly idealTree ├── block-stream@0.0.8
+490 silly idealTree ├── bluebird@2.10.2
+490 silly idealTree ├─┬ body-parser@1.14.1
+490 silly idealTree │ ├── depd@1.1.0
+490 silly idealTree │ ├── iconv-lite@0.4.12
+490 silly idealTree │ └── qs@5.1.0
+490 silly idealTree ├── boom@2.10.1
+490 silly idealTree ├── brace-expansion@1.1.1
+490 silly idealTree ├── builtin-modules@1.1.0
+490 silly idealTree ├── bytes@2.1.0
+490 silly idealTree ├── camelcase-keys@1.0.0
+490 silly idealTree ├── camelcase@1.2.1
+490 silly idealTree ├── caseless@0.11.0
+490 silly idealTree ├── chalk@1.1.1
+490 silly idealTree ├── cliui@3.0.3
+490 silly idealTree ├── code-point-at@1.0.0
+490 silly idealTree ├── coffee-script@1.3.3
+490 silly idealTree ├── colors@0.6.2
+490 silly idealTree ├── combined-stream@1.0.5
+490 silly idealTree ├── commander@2.9.0
+490 silly idealTree ├── concat-map@0.0.1
+490 silly idealTree ├── concat-stream@1.5.1
+490 silly idealTree ├── config-chain@1.1.9
+490 silly idealTree ├─┬ configstore@0.3.2
+490 silly idealTree │ ├── argparse@1.0.3
+490 silly idealTree │ ├── esprima@2.7.0
+490 silly idealTree │ ├── graceful-fs@3.0.8
+490 silly idealTree │ ├── js-yaml@3.4.3
+490 silly idealTree │ ├── lodash@3.10.1
+490 silly idealTree │ └── mkdirp@0.5.1
+490 silly idealTree ├── consolidate@0.13.1
+490 silly idealTree ├── content-disposition@0.5.0
+490 silly idealTree ├── content-type@1.0.1
+490 silly idealTree ├── cookie-signature@1.0.6
+490 silly idealTree ├── cookie@0.1.3
+490 silly idealTree ├── core-util-is@1.0.1
+490 silly idealTree ├─┬ cross-spawn-async@2.0.0
+490 silly idealTree │ └── which@1.2.0
+490 silly idealTree ├── cross-spawn@2.0.0
+490 silly idealTree ├── cryptiles@2.0.5
+490 silly idealTree ├── ctype@0.5.3
+490 silly idealTree ├── dateformat@1.0.2-1.2.3
+490 silly idealTree ├── debug@2.2.0
+490 silly idealTree ├── decamelize@1.1.1
+490 silly idealTree ├── deep-extend@0.2.11
+490 silly idealTree ├── delayed-stream@1.0.0
+490 silly idealTree ├── delegates@0.1.0
+490 silly idealTree ├── depd@1.0.1
+490 silly idealTree ├── destroy@1.0.3
+490 silly idealTree ├── duplexify@3.4.2
+490 silly idealTree ├── each-async@1.1.1
+490 silly idealTree ├── ee-first@1.1.1
+490 silly idealTree ├── end-of-stream@1.0.0
+490 silly idealTree ├── error-ex@1.2.0
+490 silly idealTree ├── escape-html@1.0.2
+490 silly idealTree ├── escape-string-regexp@1.0.3
+490 silly idealTree ├── esprima@1.0.4
+490 silly idealTree ├── etag@1.7.0
+490 silly idealTree ├── event-stream@0.5.3
+490 silly idealTree ├── eventemitter2@0.4.14
+490 silly idealTree ├── exit@0.1.2
+490 silly idealTree ├── express-writer@0.0.4
+490 silly idealTree ├── express@4.13.3
+490 silly idealTree ├── extend@3.0.0
+490 silly idealTree ├── faye-websocket@0.4.4
+490 silly idealTree ├── finalhandler@0.4.0
+490 silly idealTree ├── find-up@1.0.0
+490 silly idealTree ├─┬ findup-sync@0.1.3
+490 silly idealTree │ ├── glob@3.2.11
+490 silly idealTree │ ├── lodash@2.4.2
+490 silly idealTree │ └── minimatch@0.3.0
+490 silly idealTree ├── forever-agent@0.6.1
+490 silly idealTree ├─┬ form-data@1.0.0-rc3
+490 silly idealTree │ └── async@1.5.0
+490 silly idealTree ├── forwarded@0.1.0
+490 silly idealTree ├── fresh@0.3.0
+490 silly idealTree ├─┬ fstream@1.0.8
+490 silly idealTree │ ├── graceful-fs@4.1.2
+490 silly idealTree │ └── mkdirp@0.5.1
+490 silly idealTree ├── gauge@1.2.2
+490 silly idealTree ├── gaze@0.4.3
+490 silly idealTree ├── generate-function@2.0.0
+490 silly idealTree ├── generate-object-property@1.2.0
+490 silly idealTree ├── get-stdin@4.0.1
+490 silly idealTree ├── getobject@0.1.0
+490 silly idealTree ├─┬ glob@3.1.21
+490 silly idealTree │ └── inherits@1.0.2
+490 silly idealTree ├─┬ globule@0.1.0
+490 silly idealTree │ └── lodash@1.0.2
+490 silly idealTree ├─┬ got@3.3.1
+490 silly idealTree │ └── object-assign@3.0.0
+490 silly idealTree ├── govuk_frontend_toolkit@4.3.0
+490 silly idealTree ├── govuk_template_mustache@0.15.1
+490 silly idealTree ├── graceful-fs@1.2.3
+490 silly idealTree ├── graceful-readlink@1.0.1
+490 silly idealTree ├── grunt-cli@0.1.13
+490 silly idealTree ├─┬ grunt-concurrent@0.4.3
+490 silly idealTree │ └── async@0.2.10
+490 silly idealTree ├── grunt-contrib-clean@0.5.0
+490 silly idealTree ├── grunt-contrib-copy@0.5.0
+490 silly idealTree ├── grunt-contrib-watch@0.5.3
+490 silly idealTree ├─┬ grunt-legacy-log-utils@0.1.1
+490 silly idealTree │ ├── lodash@2.4.2
+490 silly idealTree │ └── underscore.string@2.3.3
+490 silly idealTree ├─┬ grunt-legacy-log@0.1.2
+490 silly idealTree │ ├── lodash@2.4.2
+490 silly idealTree │ └── underscore.string@2.3.3
+490 silly idealTree ├── grunt-legacy-util@0.2.0
+490 silly idealTree ├── grunt-nodemon@0.4.0
+490 silly idealTree ├─┬ grunt-sass@1.1.0-beta
+490 silly idealTree │ ├── gaze@0.5.2
+490 silly idealTree │ ├── glob@5.0.15
+490 silly idealTree │ ├── minimatch@3.0.0
+490 silly idealTree │ ├── mkdirp@0.5.1
+490 silly idealTree │ └── node-sass@3.4.1
+490 silly idealTree ├── grunt-text-replace@0.3.12
+490 silly idealTree ├── grunt@0.4.5
+490 silly idealTree ├── har-validator@2.0.2
+490 silly idealTree ├── has-ansi@2.0.0
+490 silly idealTree ├── has-unicode@1.0.1
+490 silly idealTree ├── hawk@3.1.0
+490 silly idealTree ├── hoek@2.16.3
+490 silly idealTree ├─┬ hogan.js@3.0.2
+490 silly idealTree │ └── mkdirp@0.3.0
+490 silly idealTree ├── hooker@0.2.3
+490 silly idealTree ├── hosted-git-info@2.1.4
+490 silly idealTree ├── http-errors@1.3.1
+490 silly idealTree ├── http-signature@0.11.0
+490 silly idealTree ├── iconv-lite@0.2.11
+490 silly idealTree ├── indent-string@2.1.0
+490 silly idealTree ├── infinity-agent@2.0.3
+490 silly idealTree ├── inflight@1.0.4
+490 silly idealTree ├── inherits@2.0.1
+490 silly idealTree ├── ini@1.3.4
+490 silly idealTree ├── invert-kv@1.0.0
+490 silly idealTree ├── ipaddr.js@1.0.1
+490 silly idealTree ├── is-absolute@0.1.7
+490 silly idealTree ├── is-builtin-module@1.0.0
+490 silly idealTree ├── is-finite@1.0.1
+490 silly idealTree ├── is-fullwidth-code-point@1.0.0
+490 silly idealTree ├── is-my-json-valid@2.12.2
+490 silly idealTree ├── is-npm@1.0.0
+490 silly idealTree ├── is-property@1.0.2
+490 silly idealTree ├── is-redirect@1.0.0
+490 silly idealTree ├── is-relative@0.1.3
+490 silly idealTree ├── is-stream@1.0.1
+490 silly idealTree ├── is-utf8@0.2.0
+490 silly idealTree ├── isarray@0.0.1
+490 silly idealTree ├── isstream@0.1.2
+490 silly idealTree ├── js-yaml@2.0.5
+490 silly idealTree ├── json-stringify-safe@5.0.1
+490 silly idealTree ├── jsonpointer@2.0.0
+490 silly idealTree ├── latest-version@1.0.1
+490 silly idealTree ├── lcid@1.0.0
+490 silly idealTree ├─┬ load-json-file@1.0.1
+490 silly idealTree │ └── graceful-fs@4.1.2
+490 silly idealTree ├── lodash._basetostring@3.0.1
+490 silly idealTree ├── lodash._createpadding@3.6.1
+490 silly idealTree ├── lodash.pad@3.1.1
+490 silly idealTree ├── lodash.padleft@3.1.1
+490 silly idealTree ├── lodash.padright@3.1.1
+490 silly idealTree ├── lodash.repeat@3.0.1
+490 silly idealTree ├── lodash@0.9.2
+490 silly idealTree ├── loud-rejection@1.0.0
+490 silly idealTree ├── lowercase-keys@1.0.0
+490 silly idealTree ├── lpad@0.1.0
+490 silly idealTree ├── lru-cache@2.7.0
+490 silly idealTree ├── map-obj@1.0.1
+490 silly idealTree ├── media-typer@0.3.0
+490 silly idealTree ├─┬ meow@3.5.0
+490 silly idealTree │ ├── minimist@1.2.0
+490 silly idealTree │ └── object-assign@4.0.1
+490 silly idealTree ├── merge-descriptors@1.0.0
+490 silly idealTree ├── methods@1.1.1
+490 silly idealTree ├── mime-db@1.19.0
+490 silly idealTree ├── mime-types@2.1.7
+490 silly idealTree ├── mime@1.3.4
+490 silly idealTree ├── minimatch@0.2.14
+490 silly idealTree ├── minimist@0.0.8
+490 silly idealTree ├── mkdirp@0.3.5
+490 silly idealTree ├── ms@0.7.1
+490 silly idealTree ├── nan@2.1.0
+490 silly idealTree ├── negotiator@0.5.3
+490 silly idealTree ├── nested-error-stacks@1.0.1
+490 silly idealTree ├─┬ node-gyp@3.0.3
+490 silly idealTree │ ├── graceful-fs@4.1.2
+490 silly idealTree │ ├── minimatch@1.0.0
+490 silly idealTree │ ├── mkdirp@0.5.1
+490 silly idealTree │ └── nopt@3.0.4
+490 silly idealTree ├─┬ node-sass@3.3.3
+490 silly idealTree │ ├── gaze@0.5.2
+490 silly idealTree │ ├── glob@5.0.15
+490 silly idealTree │ ├── minimatch@3.0.0
+490 silly idealTree │ └── mkdirp@0.5.1
+490 silly idealTree ├── node-uuid@1.4.3
+490 silly idealTree ├─┬ nodemon@1.3.8
+490 silly idealTree │ └── minimatch@0.3.0
+490 silly idealTree ├── nopt@1.0.10
+490 silly idealTree ├─┬ noptify@0.0.3
+490 silly idealTree │ └── nopt@2.0.0
+490 silly idealTree ├── normalize-package-data@2.3.4
+490 silly idealTree ├─┬ npmconf@2.1.2
+490 silly idealTree │ ├── mkdirp@0.5.1
+490 silly idealTree │ └── nopt@3.0.4
+490 silly idealTree ├── npmlog@1.2.1
+490 silly idealTree ├── number-is-nan@1.0.0
+490 silly idealTree ├── oauth-sign@0.8.0
+490 silly idealTree ├── object-assign@2.1.1
+490 silly idealTree ├── on-finished@2.3.0
+490 silly idealTree ├── once@1.3.2
+490 silly idealTree ├── onetime@1.0.0
+490 silly idealTree ├── optimist@0.2.8
+490 silly idealTree ├── os-homedir@1.0.1
+490 silly idealTree ├── os-locale@1.4.0
+490 silly idealTree ├── os-shim@0.1.3
+490 silly idealTree ├── os-tmpdir@1.0.1
+490 silly idealTree ├── osenv@0.1.3
+490 silly idealTree ├── package-json@1.2.0
+490 silly idealTree ├── parse-json@2.2.0
+490 silly idealTree ├── parseurl@1.3.0
+490 silly idealTree ├── path-array@1.0.0
+490 silly idealTree ├── path-exists@2.0.0
+490 silly idealTree ├── path-is-absolute@1.0.0
+490 silly idealTree ├── path-to-regexp@0.1.7
+490 silly idealTree ├─┬ path-type@1.0.0
+490 silly idealTree │ └── graceful-fs@4.1.2
+490 silly idealTree ├── pify@2.3.0
+490 silly idealTree ├── pinkie-promise@1.0.0
+490 silly idealTree ├── pinkie@1.0.0
+490 silly idealTree ├── prepend-http@1.0.3
+490 silly idealTree ├── process-nextick-args@1.0.3
+490 silly idealTree ├── proto-list@1.2.4
+490 silly idealTree ├── proxy-addr@1.0.8
+490 silly idealTree ├── ps-tree@0.0.3
+490 silly idealTree ├── qs@4.0.0
+490 silly idealTree ├── range-parser@1.0.3
+490 silly idealTree ├─┬ raw-body@2.1.4
+490 silly idealTree │ └── iconv-lite@0.4.12
+490 silly idealTree ├─┬ rc@1.1.2
+490 silly idealTree │ └── minimist@1.2.0
+490 silly idealTree ├── read-all-stream@3.0.1
+490 silly idealTree ├── read-pkg-up@1.0.1
+490 silly idealTree ├── read-pkg@1.1.0
+490 silly idealTree ├── readable-stream@2.0.4
+490 silly idealTree ├── readdir@0.0.6
+490 silly idealTree ├── redent@1.0.0
+490 silly idealTree ├── registry-url@3.0.3
+490 silly idealTree ├── repeating@2.0.0
+490 silly idealTree ├─┬ request@2.65.0
+490 silly idealTree │ └── qs@5.2.0
+490 silly idealTree ├── resolve@0.3.1
+490 silly idealTree ├── rimraf@2.2.8
+490 silly idealTree ├─┬ sass-graph@2.0.1
+490 silly idealTree │ ├── glob@5.0.15
+490 silly idealTree │ ├── lodash@3.10.1
+490 silly idealTree │ └── minimatch@3.0.0
+490 silly idealTree ├── semver-diff@2.0.0
+490 silly idealTree ├── semver@4.3.6
+490 silly idealTree ├── send@0.13.0
+490 silly idealTree ├── serve-favicon@2.3.0
+490 silly idealTree ├── serve-static@1.10.0
+490 silly idealTree ├── set-immediate-shim@1.0.1
+490 silly idealTree ├── sigmund@1.0.1
+490 silly idealTree ├── sntp@1.0.9
+490 silly idealTree ├── spawn-sync@1.0.14
+490 silly idealTree ├── spdx-correct@1.0.2
+490 silly idealTree ├── spdx-exceptions@1.0.3
+490 silly idealTree ├── spdx-expression-parse@1.0.0
+490 silly idealTree ├── spdx-license-ids@1.1.0
+490 silly idealTree ├── sprintf-js@1.0.3
+490 silly idealTree ├── statuses@1.2.1
+490 silly idealTree ├── string_decoder@0.10.31
+490 silly idealTree ├── string-length@1.0.1
+490 silly idealTree ├── string-width@1.0.1
+490 silly idealTree ├── stringstream@0.0.5
+490 silly idealTree ├── strip-ansi@3.0.0
+490 silly idealTree ├── strip-bom@2.0.0
+490 silly idealTree ├── strip-indent@1.0.1
+490 silly idealTree ├── strip-json-comments@0.1.3
+490 silly idealTree ├── supports-color@2.0.0
+490 silly idealTree ├── tar@1.0.3
+490 silly idealTree ├── timed-out@2.0.0
+490 silly idealTree ├─┬ tiny-lr@0.0.4
+490 silly idealTree │ ├── debug@0.7.4
+490 silly idealTree │ └── qs@0.5.6
+490 silly idealTree ├── touch@0.0.4
+490 silly idealTree ├── tough-cookie@2.2.0
+490 silly idealTree ├── trim-newlines@1.0.0
+490 silly idealTree ├── tunnel-agent@0.4.1
+490 silly idealTree ├── type-is@1.6.9
+490 silly idealTree ├── typedarray@0.0.6
+490 silly idealTree ├── uid-number@0.0.5
+490 silly idealTree ├── underscore.string@2.2.1
+490 silly idealTree ├── underscore@1.7.0
+490 silly idealTree ├── unpipe@1.0.0
+490 silly idealTree ├── update-notifier@0.3.2
+490 silly idealTree ├── user-home@1.1.1
+490 silly idealTree ├── util-deprecate@1.0.2
+490 silly idealTree ├── utils-merge@1.0.0
+490 silly idealTree ├── uuid@2.0.1
+490 silly idealTree ├── validate-npm-package-license@3.0.1
+490 silly idealTree ├── vary@1.0.1
+490 silly idealTree ├── which@1.0.9
+490 silly idealTree ├── window-size@0.1.2
+490 silly idealTree ├── wordwrap@0.0.3
+490 silly idealTree ├── wrap-ansi@1.0.0
+490 silly idealTree ├── wrappy@1.0.1
+490 silly idealTree ├── xdg-basedir@1.0.1
+490 silly idealTree ├── xtend@4.0.0
+490 silly idealTree ├── y18n@3.2.0
+490 silly idealTree └── yargs@3.29.0
+491 silly generateActionsToTake Starting
+492 silly install generateActionsToTake
+493 silly generateActionsToTake Finishing
+494 silly diffTrees action count 5
+495 silly diffTrees add gaze@0.5.2
+496 silly diffTrees add minimatch@3.0.0
+497 silly diffTrees add glob@5.0.15
+498 silly diffTrees add mkdirp@0.5.1
+499 silly diffTrees add node-sass@3.3.3
+500 silly decomposeActions action count 40
+501 silly decomposeActions fetch gaze@0.5.2
+502 silly decomposeActions extract gaze@0.5.2
+503 silly decomposeActions preinstall gaze@0.5.2
+504 silly decomposeActions build gaze@0.5.2
+505 silly decomposeActions install gaze@0.5.2
+506 silly decomposeActions postinstall gaze@0.5.2
+507 silly decomposeActions test gaze@0.5.2
+508 silly decomposeActions finalize gaze@0.5.2
+509 silly decomposeActions fetch minimatch@3.0.0
+510 silly decomposeActions extract minimatch@3.0.0
+511 silly decomposeActions preinstall minimatch@3.0.0
+512 silly decomposeActions build minimatch@3.0.0
+513 silly decomposeActions install minimatch@3.0.0
+514 silly decomposeActions postinstall minimatch@3.0.0
+515 silly decomposeActions test minimatch@3.0.0
+516 silly decomposeActions finalize minimatch@3.0.0
+517 silly decomposeActions fetch glob@5.0.15
+518 silly decomposeActions extract glob@5.0.15
+519 silly decomposeActions preinstall glob@5.0.15
+520 silly decomposeActions build glob@5.0.15
+521 silly decomposeActions install glob@5.0.15
+522 silly decomposeActions postinstall glob@5.0.15
+523 silly decomposeActions test glob@5.0.15
+524 silly decomposeActions finalize glob@5.0.15
+525 silly decomposeActions fetch mkdirp@0.5.1
+526 silly decomposeActions extract mkdirp@0.5.1
+527 silly decomposeActions preinstall mkdirp@0.5.1
+528 silly decomposeActions build mkdirp@0.5.1
+529 silly decomposeActions install mkdirp@0.5.1
+530 silly decomposeActions postinstall mkdirp@0.5.1
+531 silly decomposeActions test mkdirp@0.5.1
+532 silly decomposeActions finalize mkdirp@0.5.1
+533 silly decomposeActions fetch node-sass@3.3.3
+534 silly decomposeActions extract node-sass@3.3.3
+535 silly decomposeActions preinstall node-sass@3.3.3
+536 silly decomposeActions build node-sass@3.3.3
+537 silly decomposeActions install node-sass@3.3.3
+538 silly decomposeActions postinstall node-sass@3.3.3
+539 silly decomposeActions test node-sass@3.3.3
+540 silly decomposeActions finalize node-sass@3.3.3
+541 silly executeActions Starting
+542 silly install executeActions
+543 silly doSerial global-install 0
+544 silly doParallel fetch 5
+545 verbose lock using /Users/nicholascutting/.npm/_locks/staging-2755936efb5741b0.lock for /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging
+546 silly doParallel extract 5
+547 silly extract gaze
+548 silly extract minimatch
+549 silly extract glob
+550 silly extract mkdirp
+551 silly extract node-sass
+552 verbose unbuild node_modules/.staging/gaze-33a60c52232e12e366dda48ab1dc85da
+553 verbose unbuild node_modules/.staging/minimatch-5c63828de491e57d54c7c4566656623a
+554 verbose unbuild node_modules/.staging/glob-0cf2c12686277ee8b9f893121e759658
+555 verbose unbuild node_modules/.staging/mkdirp-f85ef1da63410eb7f67cd9c5c38c4bac
+556 verbose unbuild node_modules/.staging/node-sass-4345f2b60fe8414550a6438218726c39
+557 silly gentlyRm /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/gaze-33a60c52232e12e366dda48ab1dc85da is being purged from base /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master
+558 silly gentlyRm /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/minimatch-5c63828de491e57d54c7c4566656623a is being purged from base /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master
+559 silly gentlyRm /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/glob-0cf2c12686277ee8b9f893121e759658 is being purged from base /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master
+560 verbose gentlyRm don't care about contents; nuking /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/gaze-33a60c52232e12e366dda48ab1dc85da
+561 verbose gentlyRm don't care about contents; nuking /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/minimatch-5c63828de491e57d54c7c4566656623a
+562 verbose gentlyRm don't care about contents; nuking /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/glob-0cf2c12686277ee8b9f893121e759658
+563 silly gentlyRm /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/mkdirp-f85ef1da63410eb7f67cd9c5c38c4bac is being purged from base /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master
+564 silly gentlyRm /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/node-sass-4345f2b60fe8414550a6438218726c39 is being purged from base /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master
+565 verbose tar unpack /Users/nicholascutting/.npm/gaze/0.5.2/package.tgz
+566 verbose tar unpacking to /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/gaze-33a60c52232e12e366dda48ab1dc85da
+567 silly gentlyRm /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/gaze-33a60c52232e12e366dda48ab1dc85da is being purged
+568 verbose tar unpack /Users/nicholascutting/.npm/minimatch/3.0.0/package.tgz
+569 verbose tar unpacking to /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/minimatch-5c63828de491e57d54c7c4566656623a
+570 silly gentlyRm /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/minimatch-5c63828de491e57d54c7c4566656623a is being purged
+571 verbose tar unpack /Users/nicholascutting/.npm/glob/5.0.15/package.tgz
+572 verbose tar unpacking to /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/glob-0cf2c12686277ee8b9f893121e759658
+573 silly gentlyRm /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/glob-0cf2c12686277ee8b9f893121e759658 is being purged
+574 verbose gentlyRm don't care about contents; nuking /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/mkdirp-f85ef1da63410eb7f67cd9c5c38c4bac
+575 verbose gentlyRm don't care about contents; nuking /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/node-sass-4345f2b60fe8414550a6438218726c39
+576 verbose gentlyRm don't care about contents; nuking /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/gaze-33a60c52232e12e366dda48ab1dc85da
+577 verbose gentlyRm don't care about contents; nuking /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/minimatch-5c63828de491e57d54c7c4566656623a
+578 verbose gentlyRm don't care about contents; nuking /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/glob-0cf2c12686277ee8b9f893121e759658
+579 verbose tar unpack /Users/nicholascutting/.npm/mkdirp/0.5.1/package.tgz
+580 verbose tar unpacking to /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/mkdirp-f85ef1da63410eb7f67cd9c5c38c4bac
+581 silly gentlyRm /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/mkdirp-f85ef1da63410eb7f67cd9c5c38c4bac is being purged
+582 verbose tar unpack /Users/nicholascutting/.npm/node-sass/3.3.3/package.tgz
+583 verbose tar unpacking to /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/node-sass-4345f2b60fe8414550a6438218726c39
+584 silly gentlyRm /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/node-sass-4345f2b60fe8414550a6438218726c39 is being purged
+585 silly gunzTarPerm modes [ '755', '644' ]
+586 silly gunzTarPerm modes [ '755', '644' ]
+587 silly gunzTarPerm modes [ '755', '644' ]
+588 verbose gentlyRm don't care about contents; nuking /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/mkdirp-f85ef1da63410eb7f67cd9c5c38c4bac
+589 verbose gentlyRm don't care about contents; nuking /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/node-sass-4345f2b60fe8414550a6438218726c39
+590 silly gunzTarPerm modes [ '755', '644' ]
+591 silly gunzTarPerm modes [ '755', '644' ]
+592 silly gunzTarPerm extractEntry package.json
+593 silly gunzTarPerm extractEntry package.json
+594 silly gunzTarPerm extractEntry package.json
+595 silly gunzTarPerm extractEntry package.json
+596 silly gunzTarPerm extractEntry package.json
+597 silly gunzTarPerm extractEntry README.md
+598 silly gunzTarPerm extractEntry LICENSE-MIT
+599 silly gunzTarPerm extractEntry README.md
+600 silly gunzTarPerm extractEntry LICENSE
+601 silly gunzTarPerm extractEntry README.md
+602 silly gunzTarPerm extractEntry LICENSE
+603 silly gunzTarPerm extractEntry common.js
+604 silly gunzTarPerm extractEntry glob.js
+605 silly gunzTarPerm extractEntry sync.js
+606 silly gunzTarPerm extractEntry LICENSE
+607 silly gunzTarPerm extractEntry index.js
+608 silly gunzTarPerm extractEntry README.md
+609 silly gunzTarPerm extractEntry LICENSE
+610 silly gunzTarPerm extractEntry lib/gaze.js
+611 silly gunzTarPerm extractEntry lib/helper.js
+612 silly gunzTarPerm extractEntry minimatch.js
+613 silly gunzTarPerm extractEntry .travis.yml
+614 silly gunzTarPerm extractEntry bin/cmd.js
+615 silly gunzTarPerm extractEntry bin/node-sass
+616 silly gunzTarPerm extractEntry binding.gyp
+617 silly gunzTarPerm extractEntry lib/extensions.js
+618 silly gunzTarPerm extractEntry lib/index.js
+619 silly gunzTarPerm extractEntry bin/usage.txt
+620 silly gunzTarPerm extractEntry examples/pow.js
+621 silly gunzTarPerm extractEntry lib/render.js
+622 silly gunzTarPerm extractEntry scripts/build.js
+623 silly gunzTarPerm extractEntry readme.markdown
+624 silly gunzTarPerm extractEntry test/chmod.js
+625 silly gunzTarPerm extractEntry scripts/coverage.js
+626 silly gunzTarPerm extractEntry scripts/install.js
+627 silly gunzTarPerm extractEntry test/opts_fs_sync.js
+628 silly gunzTarPerm extractEntry src/custom_importer_bridge.cpp
+629 silly gunzTarPerm extractEntry src/binding.cpp
+630 silly gunzTarPerm extractEntry test/perm.js
+631 silly gunzTarPerm extractEntry test/perm_sync.js
+632 silly gunzTarPerm extractEntry src/create_string.cpp
+633 silly gunzTarPerm extractEntry src/create_string.h
+634 silly gunzTarPerm extractEntry test/opts_fs.js
+635 silly gunzTarPerm extractEntry test/rel.js
+636 silly gunzTarPerm extractEntry src/custom_function_bridge.cpp
+637 silly gunzTarPerm extractEntry src/custom_function_bridge.h
+638 silly gunzTarPerm extractEntry test/return.js
+639 silly gunzTarPerm extractEntry test/return_sync.js
+640 silly gunzTarPerm extractEntry src/callback_bridge.h
+641 silly gunzTarPerm extractEntry src/custom_importer_bridge.h
+642 silly gunzTarPerm extractEntry test/root.js
+643 silly gunzTarPerm extractEntry test/sync.js
+644 silly gunzTarPerm extractEntry src/libsass/.npmignore
+645 silly gunzTarPerm extractEntry src/libsass/LICENSE
+646 silly gunzTarPerm extractEntry test/mkdirp.js
+647 silly gunzTarPerm extractEntry test/umask.js
+648 silly gunzTarPerm extractEntry src/libsass/lexer.cpp
+649 silly gunzTarPerm extractEntry src/libsass/.travis.yml
+650 silly gunzTarPerm extractEntry test/clobber.js
+651 silly gunzTarPerm extractEntry test/umask_sync.js
+652 silly gunzTarPerm extractEntry src/libsass/COPYING
+653 silly gunzTarPerm extractEntry src/libsass/INSTALL
+654 silly gunzTarPerm extractEntry test/race.js
+655 silly gunzTarPerm extractEntry src/libsass/.editorconfig
+656 silly gunzTarPerm extractEntry src/libsass/Makefile
+657 silly gunzTarPerm extractEntry src/libsass/Makefile.am
+658 silly gunzTarPerm extractEntry src/libsass/Readme.md
+659 silly gunzTarPerm extractEntry src/libsass/SECURITY.md
+660 silly gunzTarPerm extractEntry src/libsass/appveyor.yml
+661 silly gunzTarPerm extractEntry src/libsass/ast.cpp
+662 silly gunzTarPerm extractEntry src/libsass/ast.hpp
+663 silly gunzTarPerm extractEntry src/libsass/ast_def_macros.hpp
+664 silly gunzTarPerm extractEntry src/libsass/ast_factory.hpp
+665 silly gunzTarPerm extractEntry src/libsass/ast_fwd_decl.hpp
+666 silly gunzTarPerm extractEntry src/libsass/b64/cencode.h
+667 silly gunzTarPerm extractEntry src/libsass/b64/encode.h
+668 silly gunzTarPerm extractEntry src/libsass/backtrace.hpp
+669 silly gunzTarPerm extractEntry src/libsass/base64vlq.cpp
+670 silly gunzTarPerm extractEntry src/libsass/base64vlq.hpp
+671 silly gunzTarPerm extractEntry src/libsass/bind.cpp
+672 silly gunzTarPerm extractEntry src/libsass/bind.hpp
+673 silly gunzTarPerm extractEntry src/libsass/cencode.c
+674 silly gunzTarPerm extractEntry src/libsass/color_names.hpp
+675 silly gunzTarPerm extractEntry src/libsass/configure.ac
+676 silly gunzTarPerm extractEntry src/libsass/constants.cpp
+677 silly gunzTarPerm extractEntry src/libsass/constants.hpp
+678 silly gunzTarPerm extractEntry src/libsass/context.cpp
+679 silly gunzTarPerm extractEntry src/libsass/context.hpp
+680 silly gunzTarPerm extractEntry src/libsass/contextualize.cpp
+681 silly gunzTarPerm extractEntry src/libsass/contextualize.hpp
+682 silly gunzTarPerm extractEntry src/libsass/contextualize_eval.cpp
+683 silly gunzTarPerm extractEntry src/libsass/contextualize_eval.hpp
+684 silly gunzTarPerm extractEntry src/libsass/contrib/libsass.spec
+685 silly gunzTarPerm extractEntry src/libsass/contrib/plugin.cpp
+686 silly gunzTarPerm extractEntry src/libsass/cssize.cpp
+687 silly gunzTarPerm extractEntry src/libsass/cssize.hpp
+688 silly gunzTarPerm extractEntry src/libsass/debug.hpp
+689 silly gunzTarPerm extractEntry src/libsass/debugger.hpp
+690 silly gunzTarPerm extractEntry src/libsass/emitter.cpp
+691 silly gunzTarPerm extractEntry src/libsass/emitter.hpp
+692 silly gunzTarPerm extractEntry src/libsass/environment.hpp
+693 silly gunzTarPerm extractEntry src/libsass/error_handling.cpp
+694 silly gunzTarPerm extractEntry src/libsass/error_handling.hpp
+695 silly gunzTarPerm extractEntry src/libsass/eval.cpp
+696 silly gunzTarPerm extractEntry src/libsass/eval.hpp
+697 silly gunzTarPerm extractEntry src/libsass/expand.cpp
+698 silly gunzTarPerm extractEntry src/libsass/expand.hpp
+699 silly gunzTarPerm extractEntry src/libsass/extconf.rb
+700 silly gunzTarPerm extractEntry src/libsass/extend.cpp
+701 silly gunzTarPerm extractEntry src/libsass/extend.hpp
+702 silly gunzTarPerm extractEntry src/libsass/file.cpp
+703 silly gunzTarPerm extractEntry src/libsass/file.hpp
+704 silly gunzTarPerm extractEntry src/libsass/functions.cpp
+705 silly gunzTarPerm extractEntry src/libsass/functions.hpp
+706 silly gunzTarPerm extractEntry src/libsass/inspect.cpp
+707 silly gunzTarPerm extractEntry src/libsass/inspect.hpp
+708 silly gunzTarPerm extractEntry src/libsass/json.cpp
+709 silly gunzTarPerm extractEntry src/libsass/json.hpp
+710 silly gunzTarPerm extractEntry src/libsass/kwd_arg_macros.hpp
+711 silly gunzTarPerm extractEntry src/libsass/.gitattributes
+712 silly gunzTarPerm extractEntry src/libsass/lexer.hpp
+713 silly gunzTarPerm extractEntry src/libsass/listize.cpp
+714 silly gunzTarPerm extractEntry src/libsass/listize.hpp
+715 silly gunzTarPerm extractEntry src/libsass/m4/.gitkeep
+716 silly gunzTarPerm extractEntry src/libsass/mapping.hpp
+717 silly gunzTarPerm extractEntry src/libsass/memory_manager.hpp
+718 silly gunzTarPerm extractEntry src/libsass/node.cpp
+719 silly gunzTarPerm extractEntry src/libsass/node.hpp
+720 silly gunzTarPerm extractEntry src/libsass/operation.hpp
+721 silly gunzTarPerm extractEntry src/libsass/output.cpp
+722 silly gunzTarPerm extractEntry src/libsass/output.hpp
+723 silly gunzTarPerm extractEntry src/libsass/parser.cpp
+724 silly gunzTarPerm extractEntry src/libsass/parser.hpp
+725 silly gunzTarPerm extractEntry src/libsass/paths.hpp
+726 silly gunzTarPerm extractEntry src/libsass/plugins.cpp
+727 silly gunzTarPerm extractEntry src/libsass/plugins.hpp
+728 silly gunzTarPerm extractEntry src/libsass/position.cpp
+729 silly gunzTarPerm extractEntry src/libsass/position.hpp
+730 silly gunzTarPerm extractEntry src/libsass/posix/getopt.c
+731 silly gunzTarPerm extractEntry src/libsass/posix/getopt.h
+732 silly gunzTarPerm extractEntry src/libsass/prelexer.cpp
+733 silly gunzTarPerm extractEntry src/libsass/prelexer.hpp
+734 silly gunzTarPerm extractEntry src/libsass/remove_placeholders.cpp
+735 silly gunzTarPerm extractEntry src/libsass/remove_placeholders.hpp
+736 silly gunzTarPerm extractEntry src/libsass/res/resource.rc
+737 silly gunzTarPerm extractEntry src/libsass/sass.cpp
+738 silly gunzTarPerm extractEntry src/libsass/sass.h
+739 silly gunzTarPerm extractEntry src/libsass/sass2scss.cpp
+740 silly gunzTarPerm extractEntry src/libsass/sass2scss.h
+741 silly gunzTarPerm extractEntry src/libsass/sass_context.cpp
+742 silly gunzTarPerm extractEntry src/libsass/sass_context.h
+743 silly gunzTarPerm extractEntry src/libsass/sass_functions.cpp
+744 silly gunzTarPerm extractEntry src/libsass/sass_functions.h
+745 silly gunzTarPerm extractEntry src/libsass/sass_interface.cpp
+746 silly gunzTarPerm extractEntry src/libsass/sass_interface.h
+747 silly gunzTarPerm extractEntry src/libsass/sass_util.cpp
+748 silly gunzTarPerm extractEntry src/libsass/sass_util.hpp
+749 silly gunzTarPerm extractEntry src/libsass/sass_values.cpp
+750 silly gunzTarPerm extractEntry src/libsass/sass_values.h
+751 silly gunzTarPerm extractEntry src/libsass/sass_version.h
+752 silly gunzTarPerm extractEntry src/libsass/sass_version.h.in
+753 silly gunzTarPerm extractEntry src/libsass/script/bootstrap
+754 silly gunzTarPerm extractEntry src/libsass/script/branding
+755 silly gunzTarPerm extractEntry src/libsass/script/ci-build-libsass
+756 silly gunzTarPerm extractEntry src/libsass/script/ci-install-compiler
+757 silly gunzTarPerm extractEntry src/libsass/script/ci-install-deps
+758 silly gunzTarPerm extractEntry src/libsass/script/ci-report-coverage
+759 silly gunzTarPerm extractEntry src/libsass/script/coveralls-debug
+760 silly gunzTarPerm extractEntry src/libsass/script/spec
+761 silly gunzTarPerm extractEntry src/libsass/script/tap-driver
+762 silly gunzTarPerm extractEntry src/libsass/script/tap-runner
+763 silly gunzTarPerm extractEntry src/libsass/source_map.cpp
+764 silly gunzTarPerm extractEntry src/libsass/source_map.hpp
+765 silly gunzTarPerm extractEntry src/libsass/subset_map.hpp
+766 silly gunzTarPerm extractEntry src/libsass/support/libsass.pc.in
+767 silly gunzTarPerm extractEntry src/libsass/test/test_node.cpp
+768 silly gunzTarPerm extractEntry src/libsass/test/test_paths.cpp
+769 silly gunzTarPerm extractEntry src/libsass/test/test_selector_difference.cpp
+770 silly gunzTarPerm extractEntry src/libsass/test/test_specificity.cpp
+771 silly gunzTarPerm extractEntry src/libsass/test/test_subset_map.cpp
+772 silly gunzTarPerm extractEntry src/libsass/test/test_superselector.cpp
+773 silly gunzTarPerm extractEntry src/libsass/test/test_unification.cpp
+774 silly gunzTarPerm extractEntry src/libsass/to_c.cpp
+775 silly gunzTarPerm extractEntry src/libsass/to_c.hpp
+776 silly gunzTarPerm extractEntry src/libsass/to_string.cpp
+777 silly gunzTarPerm extractEntry src/libsass/to_string.hpp
+778 silly gunzTarPerm extractEntry src/libsass/units.cpp
+779 silly gunzTarPerm extractEntry src/libsass/units.hpp
+780 silly gunzTarPerm extractEntry src/libsass/utf8/checked.h
+781 silly gunzTarPerm extractEntry src/libsass/utf8/core.h
+782 silly gunzTarPerm extractEntry src/libsass/utf8/unchecked.h
+783 silly gunzTarPerm extractEntry src/libsass/utf8.h
+784 silly gunzTarPerm extractEntry src/libsass/utf8_string.cpp
+785 silly gunzTarPerm extractEntry src/libsass/utf8_string.hpp
+786 silly gunzTarPerm extractEntry src/libsass/util.cpp
+787 silly gunzTarPerm extractEntry src/libsass/util.hpp
+788 silly gunzTarPerm extractEntry src/libsass/version.sh
+789 silly gunzTarPerm extractEntry src/libsass/win/libsass.filters
+790 silly gunzTarPerm extractEntry src/libsass/win/libsass.sln
+791 silly gunzTarPerm extractEntry src/libsass/win/libsass.vcxproj
+792 silly gunzTarPerm extractEntry src/libsass.gyp
+793 silly gunzTarPerm extractEntry src/sass_context_wrapper.cpp
+794 silly gunzTarPerm extractEntry src/sass_context_wrapper.h
+795 silly gunzTarPerm extractEntry src/sass_types/map.cpp
+796 silly gunzTarPerm extractEntry src/sass_types/boolean.cpp
+797 silly gunzTarPerm extractEntry src/sass_types/color.cpp
+798 silly gunzTarPerm extractEntry src/sass_types/color.h
+799 silly gunzTarPerm extractEntry src/sass_types/error.cpp
+800 silly gunzTarPerm extractEntry src/sass_types/error.h
+801 silly gunzTarPerm extractEntry src/sass_types/factory.cpp
+802 silly gunzTarPerm extractEntry src/sass_types/factory.h
+803 silly gunzTarPerm extractEntry src/sass_types/list.cpp
+804 silly gunzTarPerm extractEntry src/sass_types/list.h
+805 silly gunzTarPerm extractEntry src/sass_types/boolean.h
+806 silly gunzTarPerm extractEntry src/sass_types/map.h
+807 silly gunzTarPerm extractEntry src/sass_types/null.cpp
+808 silly gunzTarPerm extractEntry src/sass_types/null.h
+809 silly gunzTarPerm extractEntry src/sass_types/number.cpp
+810 silly gunzTarPerm extractEntry src/sass_types/number.h
+811 silly gunzTarPerm extractEntry src/sass_types/sass_value_wrapper.h
+812 silly gunzTarPerm extractEntry src/sass_types/string.cpp
+813 silly gunzTarPerm extractEntry src/sass_types/string.h
+814 silly gunzTarPerm extractEntry src/sass_types/value.h
+815 silly doParallel preinstall 5
+816 silly preinstall gaze /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/gaze-33a60c52232e12e366dda48ab1dc85da
+817 info lifecycle gaze@0.5.2~preinstall: gaze@0.5.2
+818 silly preinstall minimatch /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/minimatch-5c63828de491e57d54c7c4566656623a
+819 info lifecycle minimatch@3.0.0~preinstall: minimatch@3.0.0
+820 silly preinstall glob /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/glob-0cf2c12686277ee8b9f893121e759658
+821 info lifecycle glob@5.0.15~preinstall: glob@5.0.15
+822 silly preinstall mkdirp /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/mkdirp-f85ef1da63410eb7f67cd9c5c38c4bac
+823 info lifecycle mkdirp@0.5.1~preinstall: mkdirp@0.5.1
+824 silly preinstall node-sass /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/node-sass-4345f2b60fe8414550a6438218726c39
+825 info lifecycle node-sass@3.3.3~preinstall: node-sass@3.3.3
+826 silly lifecycle gaze@0.5.2~preinstall: no script for preinstall, continuing
+827 silly lifecycle minimatch@3.0.0~preinstall: no script for preinstall, continuing
+828 silly lifecycle glob@5.0.15~preinstall: no script for preinstall, continuing
+829 silly lifecycle mkdirp@0.5.1~preinstall: no script for preinstall, continuing
+830 silly lifecycle node-sass@3.3.3~preinstall: no script for preinstall, continuing
+831 silly doReverseSerial remove 0
+832 silly doSerial move 0
+833 silly doSerial finalize 5
+834 silly finalize /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass/node_modules/gaze
+835 silly finalize /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass/node_modules/minimatch
+836 silly finalize /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass/node_modules/glob
+837 silly finalize /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass/node_modules/mkdirp
+838 silly finalize /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass
+839 silly doSerial build 5
+840 silly build gaze
+841 info linkStuff gaze@0.5.2
+842 silly linkStuff gaze@0.5.2 has /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass/node_modules as its parent node_modules
+843 verbose linkBins gaze@0.5.2
+844 verbose linkMans gaze@0.5.2
+845 verbose rebuildBundles gaze@0.5.2
+846 silly build minimatch
+847 info linkStuff minimatch@3.0.0
+848 silly linkStuff minimatch@3.0.0 has /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass/node_modules as its parent node_modules
+849 verbose linkBins minimatch@3.0.0
+850 verbose linkMans minimatch@3.0.0
+851 verbose rebuildBundles minimatch@3.0.0
+852 silly build glob
+853 info linkStuff glob@5.0.15
+854 silly linkStuff glob@5.0.15 has /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass/node_modules as its parent node_modules
+855 verbose linkBins glob@5.0.15
+856 verbose linkMans glob@5.0.15
+857 verbose rebuildBundles glob@5.0.15
+858 silly build mkdirp
+859 info linkStuff mkdirp@0.5.1
+860 silly linkStuff mkdirp@0.5.1 has /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass/node_modules as its parent node_modules
+861 verbose linkBins mkdirp@0.5.1
+862 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+862 verbose link bins   '/Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass/node_modules/.bin',
+862 verbose link bins   false ]
+863 verbose linkMans mkdirp@0.5.1
+864 verbose rebuildBundles mkdirp@0.5.1
+865 silly gentlyRm /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass/node_modules/.bin/mkdirp is being purged
+866 verbose gentlyRm don't care about contents; nuking /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass/node_modules/.bin/mkdirp
+867 silly build node-sass
+868 info linkStuff node-sass@3.3.3
+869 silly linkStuff node-sass@3.3.3 has /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules as its parent node_modules
+870 verbose linkBins node-sass@3.3.3
+871 verbose link bins [ { 'node-sass': 'bin/node-sass' },
+871 verbose link bins   '/Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.bin',
+871 verbose link bins   false ]
+872 verbose linkMans node-sass@3.3.3
+873 verbose rebuildBundles node-sass@3.3.3
+874 verbose rebuildBundles [ '.bin', 'gaze', 'glob', 'minimatch', 'mkdirp' ]
+875 verbose rebuild bundle /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass/node_modules/minimatch
+876 info build /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass/node_modules/minimatch
+877 info lifecycle minimatch@3.0.0~preinstall: minimatch@3.0.0
+878 silly lifecycle minimatch@3.0.0~preinstall: no script for preinstall, continuing
+879 info linkStuff minimatch@3.0.0
+880 silly linkStuff minimatch@3.0.0 has /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass/node_modules as its parent node_modules
+881 verbose linkBins minimatch@3.0.0
+882 verbose linkMans minimatch@3.0.0
+883 verbose rebuildBundles minimatch@3.0.0
+884 info lifecycle minimatch@3.0.0~install: minimatch@3.0.0
+885 silly lifecycle minimatch@3.0.0~install: no script for install, continuing
+886 info lifecycle minimatch@3.0.0~postinstall: minimatch@3.0.0
+887 silly lifecycle minimatch@3.0.0~postinstall: no script for postinstall, continuing
+888 silly doSerial global-link 0
+889 silly doParallel update-linked 0
+890 silly doSerial install 5
+891 silly install gaze /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/gaze-33a60c52232e12e366dda48ab1dc85da
+892 info lifecycle gaze@0.5.2~install: gaze@0.5.2
+893 silly lifecycle gaze@0.5.2~install: no script for install, continuing
+894 silly install minimatch /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/minimatch-5c63828de491e57d54c7c4566656623a
+895 info lifecycle minimatch@3.0.0~install: minimatch@3.0.0
+896 silly lifecycle minimatch@3.0.0~install: no script for install, continuing
+897 silly install glob /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/glob-0cf2c12686277ee8b9f893121e759658
+898 info lifecycle glob@5.0.15~install: glob@5.0.15
+899 silly lifecycle glob@5.0.15~install: no script for install, continuing
+900 silly install mkdirp /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/mkdirp-f85ef1da63410eb7f67cd9c5c38c4bac
+901 info lifecycle mkdirp@0.5.1~install: mkdirp@0.5.1
+902 silly lifecycle mkdirp@0.5.1~install: no script for install, continuing
+903 silly install node-sass /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/node-sass-4345f2b60fe8414550a6438218726c39
+904 info lifecycle node-sass@3.3.3~install: node-sass@3.3.3
+905 verbose lifecycle node-sass@3.3.3~install: unsafe-perm in lifecycle false
+906 verbose lifecycle node-sass@3.3.3~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass/node_modules/.bin:/Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+907 verbose lifecycle node-sass@3.3.3~install: CWD: /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass
+908 silly lifecycle node-sass@3.3.3~install: Args: [ '-c', 'node scripts/install.js' ]
+909 silly lifecycle node-sass@3.3.3~install: Returned: code: 0  signal: null
+910 silly doSerial postinstall 5
+911 silly postinstall gaze /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/gaze-33a60c52232e12e366dda48ab1dc85da
+912 info lifecycle gaze@0.5.2~postinstall: gaze@0.5.2
+913 silly lifecycle gaze@0.5.2~postinstall: no script for postinstall, continuing
+914 silly postinstall minimatch /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/minimatch-5c63828de491e57d54c7c4566656623a
+915 info lifecycle minimatch@3.0.0~postinstall: minimatch@3.0.0
+916 silly lifecycle minimatch@3.0.0~postinstall: no script for postinstall, continuing
+917 silly postinstall glob /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/glob-0cf2c12686277ee8b9f893121e759658
+918 info lifecycle glob@5.0.15~postinstall: glob@5.0.15
+919 silly lifecycle glob@5.0.15~postinstall: no script for postinstall, continuing
+920 silly postinstall mkdirp /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/mkdirp-f85ef1da63410eb7f67cd9c5c38c4bac
+921 info lifecycle mkdirp@0.5.1~postinstall: mkdirp@0.5.1
+922 silly lifecycle mkdirp@0.5.1~postinstall: no script for postinstall, continuing
+923 silly postinstall node-sass /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging/node-sass-4345f2b60fe8414550a6438218726c39
+924 info lifecycle node-sass@3.3.3~postinstall: node-sass@3.3.3
+925 verbose lifecycle node-sass@3.3.3~postinstall: unsafe-perm in lifecycle false
+926 verbose lifecycle node-sass@3.3.3~postinstall: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass/node_modules/.bin:/Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+927 verbose lifecycle node-sass@3.3.3~postinstall: CWD: /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/node-sass
+928 silly lifecycle node-sass@3.3.3~postinstall: Args: [ '-c', 'node scripts/build.js' ]
+929 silly lifecycle node-sass@3.3.3~postinstall: Returned: code: 1  signal: null
+930 info lifecycle node-sass@3.3.3~postinstall: Failed to exec postinstall script
+931 verbose unlock done using /Users/nicholascutting/.npm/_locks/staging-2755936efb5741b0.lock for /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master/node_modules/.staging
+932 silly rollbackFailedOptional Starting
+933 silly rollbackFailedOptional Finishing
+934 silly runTopLevelLifecycles Starting
+935 silly runTopLevelLifecycles Finishing
+936 silly install printInstalled
+937 verbose stack Error: node-sass@3.3.3 postinstall: `node scripts/build.js`
+937 verbose stack Exit status 1
+937 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:233:16)
+937 verbose stack     at emitTwo (events.js:87:13)
+937 verbose stack     at EventEmitter.emit (events.js:172:7)
+937 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+937 verbose stack     at emitTwo (events.js:87:13)
+937 verbose stack     at ChildProcess.emit (events.js:172:7)
+937 verbose stack     at maybeClose (internal/child_process.js:818:16)
+937 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+938 verbose pkgid node-sass@3.3.3
+939 verbose cwd /Users/nicholascutting/Documents/debtpay/govuk_prototype_kit-master
+940 error Darwin 14.3.0
+941 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "update"
+942 error node v5.0.0
+943 error npm  v3.3.6
+944 error code ELIFECYCLE
+945 error node-sass@3.3.3 postinstall: `node scripts/build.js`
+945 error Exit status 1
+946 error Failed at the node-sass@3.3.3 postinstall script 'node scripts/build.js'.
+946 error This is most likely a problem with the node-sass package,
+946 error not with npm itself.
+946 error Tell the author that this fails on your system:
+946 error     node scripts/build.js
+946 error You can get their info via:
+946 error     npm owner ls node-sass
+946 error There is likely additional logging output above.
+947 verbose exit [ 1, true ]
