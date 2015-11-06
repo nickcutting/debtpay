@@ -1,0 +1,31 @@
+{{<layout}}
+
+{{$pageTitle}}Page 5{{/pageTitle}}
+
+{{$content}}
+
+<main id="content" role="main">
+First name: {{firstname}}<br>
+Last name: {{lastname}}<br>
+<!-- Expiry: {{expiry1}}<br> -->
+<label class="form-label" for="first-name">First name</label>
+<input class="form-control" id="firstnametest" name="firstnametest" type="text" aria-required="true" value="{{firstname}}" disabled="disabled"> 
+<label class="form-label" for="last-name">Last name</label>
+<input class="form-control" id="lastnametest" name="lastnametest" type="text" aria-required="true" value="{{lastname}}" disabled="disabled">
+<br><br>
+<h2 class="heading-medium">Address</h2>
+<label class="form-label" for="build-name">Build name</label>
+<input class="form-control" id="buildnametest" name="buildnametest" type="text" aria-required="true" value="{{buildname}}" disabled="disabled"> 
+<label class="form-label" for="street-name">Street name</label>
+<input class="form-control" id="streetnametest" name="streetnametest" type="text" aria-required="true" value="{{streetname}}" disabled="disabled">
+<label class="form-label" for="town-name">Town name</label>
+<input class="form-control" id="townnametest" name="townnametest" type="text" aria-required="true" value="{{townname}}" disabled="disabled"> 
+<br><br>
+<label class="form-label" for="nino-name">National Insurance Number</label>
+<input class="form-control" id="ninotest" name="ninotest" type="text" aria-required="true" value="{{nino}}" disabled="disabled">
+{{nino}}
+</div>
+</main>
+
+{{/content}}
+{{/layout}}

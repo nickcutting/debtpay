@@ -1,0 +1,70 @@
+{{<layout}}
+
+{{$pageTitle}}Page 4{{/pageTitle}}
+
+{{$content}}
+
+<main id="content" role="main">
+	<h1 class="heading-xlarge">Secure payment page</h1>
+	<h2 class="heading-large">Card details</h2>
+	<div class="form-group">
+		<label class="form-label" for="card-number-n1">Card number
+			<input class="form-control" id="card-number-n1" type="text">
+		</label>
+	</div>
+
+	<div class="form-group">
+		<label class="form-label" for="card-number-n1">Expiry date
+			<select name='expireMM' id='expireMM'>
+		    <option value=''>--</option>
+		    <option value='01'>01</option>
+		    <option value='02'>02</option>
+		    <option value='03'>03</option>
+		    <option value='04'>04</option>
+		    <option value='05'>05</option>
+		    <option value='06'>06</option>
+		    <option value='07'>07</option>
+		    <option value='08'>08</option>
+		    <option value='09'>09</option>
+		    <option value='10'>10</option>
+		    <option value='11'>11</option>
+		    <option value='12'>12</option>
+		</select> 
+		<select name='expireYY' id='expireYY'>
+		    <option value=''>----</option>
+		    <option value='15'>2015</option>
+		    <option value='16'>2016</option>
+		    <option value='17'>2017</option>
+		    <option value='18'>2018</option>
+		    <option value='19'>2019</option>
+		    <option value='20'>2020</option>
+		    <option value='21'>2021</option>
+		    <option value='22'>2022</option>
+		    <option value='23'>2023</option>
+		    <option value='24'>2024</option>
+		    <option value='25'>2025</option>
+		    <option value='26'>2026</option>
+		    <option value='27'>2027</option>
+		    <option value='28'>2028</option>
+		    <option value='29'>2029</option>
+		    <option value='30'>2030</option>
+		</select> 
+		</label>
+	</div>
+	<div class="form-group">
+		<label class="form-label" for="name-card-n1">Name (as shown on card)
+			<input class="form-control" id="name-card-n1" type="text">
+		</label>
+	</div>
+	<div class="form-group">
+		<label class="form-label" for="name-card-n1">Security Code <a href="#">what is this?</a>
+			<input class="form-control security-code" id="name-card-n1" type="text">
+		</label>
+	</div>
+  
+</main>
+
+{{/content}}
+
+{{/layout}}
+

@@ -1,0 +1,97 @@
+{{<layout}}
+
+{{$pageTitle}}Page 2{{/pageTitle}}
+
+{{$content}}
+
+<main id="content" role="main">
+  <form action="/page5" method="post">
+	<h1 class="heading-xlarge">Please enter your details</h1>
+	<div class="form-group">
+		<span class="error-container"></span>
+    	<label class="form-label" for="first-name">First name</label>
+    	<input class="form-control" id="firstname" name="firstname" type="text" data-parsley-required="true" data-parsley-error-message="Please enter your first name" aria-required="true">
+  	</div>
+  	<div class="form-group">
+  		<span class="error-container"></span>
+    	<label class="form-label" for="last-name">Last name</label>
+    	<input class="form-control" id="lastname" name="lastname" type="text" data-parsley-required="true" data-parsley-error-message="Please enter your last name" aria-required="true">
+  	</div>
+  	<div class="form-group">
+    	<label class="form-label" for="other-name-2"><h2 class="heading-medium">Other name</h2>
+		<span class="form-hint">For example nickname, professional or maiden name</span>
+    	</label>
+    	<input class="form-control" id="other-name-2" type="text">
+    	<br><br>
+  	</div>	
+  	<div class="form-date">
+  	<h2 class="heading-medium">Date of birth</h2>
+  	<h2 class="heading-small">Please enter it in this format: dd mm yyyy - for example: 31 3 1980</h2>
+        <div class="form-group form-group-day">
+          <label for="dob-day">Day</label>
+          <input class="form-control" id="dob-day" name="dob-day" type="number" pattern="[0-9]*" min="0" max="31">
+        </div>
+        <div class="form-group form-group-month">
+          <label for="dob-month">Month</label>
+          <input class="form-control" id="dob-month" name="dob-month" type="number" pattern="[0-9]*" min="0" max="12">
+        </div>
+        <div class="form-group form-group-year">
+          <label for="dob-year">Year</label>
+          <input class="form-control" id="dob-year" name="dob-year" type="number" pattern="[0-9]*" min="0" max="2014">  
+        </div>
+    </div><br><br>
+    <div class="form-group">
+    <h2 class="heading-medium">Address</h2>
+
+    <div class="form-group">
+      <span class="error-container"></span>
+    	<label class="form-label" for="build-name-2">Building name or number</label>
+    	<input class="form-control" id="buildname" name="buildname" type="text" data-parsley-required="true" data-parsley-error-message="Please enter a number or house name" aria-required="true">
+  	</div>
+  	<div class="form-group">
+      <span class="error-container"></span>
+    	<label class="form-label" for="street-name-2">Street</label>
+    	<input class="form-control" id="streetname" name="streetname" type="text" data-parsley-required="true" data-parsley-error-message="Please enter a street name" aria-required="true">
+  	</div>
+  	<div class="form-group">
+      <span class="error-container"></span>
+    	<label class="form-label" for="town-name-2">Town</label>
+    	<input class="form-control" id="townname" name="townname" type="text" data-parsley-required="true" data-parsley-error-message="Please enter a Town" aria-required="true">
+  	</div>
+  	<div class="form-group">
+    	<label class="form-label" for="county-name-2">County</label>
+    	<input class="form-control" id="county-name-2" name="county-name-2" type="text">
+  	</div>
+  	<div class="form-group">
+    	<label class="form-label" for="postcode-name-2">Post Code</label>
+    	<input class="form-control" id="postcode-name-2" name="postcode-name-2" type="text">
+  	</div>
+  </div>
+  	<div class="form-group">
+      <span class="error-container"></span>
+    	<label class="form-label" for="nino-name-2"><h2 class="heading-medium">Please enter your National Insurance number</h2>
+		<span class="form-hint">For example QQ123456C</span>
+    	</label>
+    	<input class="form-control" id="nino" name="nino" type="text" data-parsley-required="true" data-parsley-pattern="/(^(?!BG|GB|NK|KN|TN|NT|ZZ)[A-CEGHJ-PR-TW-Z]{1}[A-CEGHJ-NPR-TW-Z]{1}[' ']{0,1}[0-9]{2}[' ']{0,1}[0-9]{2}[' ']{0,1}[0-9]{2}[A-D]{0,1}$)/igm" data-parsley-error-message="Please enter your NINO" aria-required="true">
+  	</div>
+	<div class="form-group">
+	    	<label class="form-label" for="tele-name-2"><h2 class="heading-medium">Please enter your telephone number?</h2>
+			<span class="form-label">Telephone number</span>
+	    	</label>
+	    	<input class="form-control" id="tele-name-2" type="text">
+	  	</div>
+	<div class="form-group">
+	    	<label class="form-label" for="email-name-2"><h2 class="heading-medium">Please enter your email address?</h2>
+			<span class="form-label">Email address</span>
+	    	</label>
+	    	<input class="form-control" id="tele-name-2" type="text">
+	  	</div>
+      <br><br>
+	  	<input class="button" type="submit" value="Continue">
+    </form>
+</main>
+
+{{/content}}
+
+{{/layout}}
+

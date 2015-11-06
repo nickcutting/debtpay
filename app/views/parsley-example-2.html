@@ -1,0 +1,42 @@
+{{<layout}}
+
+{{$pageTitle}}Blank page{{/pageTitle}}
+
+{{$content}}
+
+<style>
+  .expiry {
+    max-width:100px;
+    float: left;
+    margin-right:20px;
+  }
+</style>
+
+<main id="content" role="main">
+  <form action="/form-data" method="post">
+    <br>
+    <div class="form-group">
+      <span class="error-container"></span>
+      <label class="form-label" for="firstname">First name</label>
+      <input class="form-control" id="firstname" name="firstname" type="text" data-parsley-required="true" data-parsley-error-message="Please enter your first name" aria-required="true">
+    </div>
+    <div class="form-group">
+      <span class="error-container"></span>
+      <label class="form-label" for="lastname">Last name</label>
+      <input class="form-control" id="lastname" name="lastname" type="text" data-parsley-required="true" data-parsley-error-message="Please enter your last name" aria-required="true">
+    </div>
+    <div class="form-group">
+      <span class="error-container"></span>
+      <label class="form-label" for="expiry">Expiry</label>
+      <input class="form-control expiry" id="expiry1" name="expiry1" type="text" data-parsley-required="true" data-parsley-error-message="Please enter a expiry month" aria-required="true">
+      <input class="form-control expiry" id="expiry2" name="expiry2" type="text" data-parsley-required="true" data-parsley-error-message="Please enter a expiry year" aria-required="true">
+    </div>
+    <nav class="form-steps" role="navigation">
+      <button type="submit" name="action" value="Continue" class="button">Continue</button>
+    </nav>
+  </form>
+</main>
+
+{{/content}}
+
+{{/layout}}
